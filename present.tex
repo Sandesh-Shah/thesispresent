@@ -1,0 +1,179 @@
+\documentclass{beamer}
+
+
+% Preamble
+%------------------------------------------------------------------------------------
+\graphicspath{{images/}}
+\usepackage{wrapfig, rotating, xcolor, txfonts, ragged2e}
+\usepackage{textpos}        % print logo at side of headbar
+\usepackage{amsmath, amssymb}
+
+
+%Themes Options
+%--------------------------------------------------------------------------------------
+\usetheme{Boadilla}
+%\usetheme{Madrid}
+\useinnertheme{rectangles}
+
+\definecolor{burgundy}{rgb}{0.5 0 0.15}      %for custom colortheme
+%\usecolortheme[named=burgundy]{structure}
+
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamersize{text margin left=7mm, text margin right=7mm} % textmargin
+
+% beamer color
+\setbeamercolor{frametitle}{fg=white!90, bg=blue!85!white}
+\setbeamercolor{title}{fg=white!90, bg=blue!85!white}
+\setbeamercolor{framenumber}{bg=orange!90!red}
+
+\setbeamercolor{title in head/foot}{fg=white, bg=orange!75!red}
+\setbeamercolor{author in head/foot}{bg=blue!85!white}
+\setbeamercolor{date in head/foot}{fg=white, bg=blue!85!white}
+\setbeamercolor{background canvas}{bg=orange!10}
+\setbeamercolor{page number in head/foot}{fg=burgundy}
+
+\setbeamercolor{author}{fg=blue, bg=pink!80!magenta}
+\setbeamercolor{supervisor}{fg=blue, bg=pink!80!magenta}
+\setbeamercolor{institute}{fg=burgundy, bg=cyan!45}
+\setbeamercolor{date}{fg=white, bg=blue!80!}
+
+%---------------------------------------------------------------------------------------------------------------------
+%Title page
+
+\setbeamertemplate{title page}
+{
+\vspace{5mm}
+    \begin{beamercolorbox}[ht=7mm, sep=2mm, leftskip=15mm]{institute}
+    {\bfseries \insertinstitute}
+  \end{beamercolorbox}
+
+  \vskip6mm
+    {\leavevmode
+  \begin{beamercolorbox}[wd=0.58\paperwidth, ht=12mm, sep=3mm, leftskip=2mm]{title}
+    {\bfseries \Large \inserttitle}
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=0.31\paperwidth, ht=12mm, sep=3mm, center]{framenumber}
+  \end{beamercolorbox}%
+}
+
+  \vskip8mm
+  \begin{beamercolorbox}[ht=20mm, sep=4mm, leftskip=12mm]{author}
+    \textcolor{burgundy}{Presenter:} \\
+        {\bfseries \insertauthor} \\
+    Roll No: 43
+  \end{beamercolorbox}
+  \vskip5mm
+  \begin{beamercolorbox}[ht=12mm, sep=2mm, leftskip=12mm]{supervisor}
+    \textcolor{burgundy}{Supervisor:} \\
+    {\small{Assoc. Prof. Tulasi Prasad Nepal.}}
+
+  \end{beamercolorbox}
+
+  \vskip3mm
+   \begin{beamercolorbox}[ht=5mm, sep=1mm, center]{date}
+    \insertdate
+  \end{beamercolorbox}
+  }
+
+%----------------------------------------------------------------------------------------------
+  \setbeamertemplate{frametitle}{
+    \leavevmode \mdseries
+    \begin{beamercolorbox}[wd=0.52\paperwidth, ht=8mm, leftskip=20mm, sep=3pt]{frametitle}
+    \insertframetitle
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=0.33\paperwidth, ht=8mm, leftskip=5mm, sep=3pt]{framenumber}
+  \end{beamercolorbox}%
+}
+
+%custom-footline
+\setbeamertemplate{footline}{
+  \leavevmode\bfseries
+  \begin{beamercolorbox}[wd=7mm, ht=7pt, dp=2.5pt]{extraspace}
+    \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=0.52\paperwidth, ht=7pt, dp=2.7pt, center]{author in head/foot}
+    \insertshortauthor~(\insertshortinstitute)
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=0.33\paperwidth, ht=7pt, dp=2.7pt, center]{title in head/foot}
+    \insertshorttitle
+  \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=0.1\paperwidth, ht=7pt, dp=2.7pt, leftskip=3mm]{page number in head/foot}
+    \insertframenumber/\inserttotalframenumber
+  \end{beamercolorbox}%
+}
+
+\addtobeamertemplate{frametitle}{}{
+\begin{textblock*}{10mm}(110mm,-7.8mm)
+  \includegraphics[height=8mm, width=10mm]{tul.png}
+\end{textblock*}
+}
+
+\addtobeamertemplate{title page}{}{
+\begin{textblock*}{150mm}(0.80\linewidth,-87mm)
+  \includegraphics[height=15mm, width=17mm]{tul.png}
+\end{textblock*}
+}
+
+\addtobeamertemplate{title page}{}{
+\begin{textblock*}{150mm}(0.75\linewidth,-47mm)
+  \includegraphics[height=20mm, width=25mm]{mypic.jpg}
+\end{textblock*}
+}
+
+
+% ----------------------------------------------------------------------------------------
+\usefonttheme{serif}
+
+% For Title Page
+% ---------------------------------------------------------------------------------------
+
+\title{Applications of Galois Theory}
+
+\author[Sandesh Thakuri]{Mr. Sandesh Thakuri}
+
+\institute[CDM, TU]
+{\footnotesize{Central Department of Mathematics, TU}}
+
+\titlegraphic{
+  \includegraphics[height=1.5cm]{tulogo.jpg}}
+
+  \date{2080-6-4}
+
+
+% Begin Document
+% ---------------------------------------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+\small
+\begin{frame}{Contents}
+  \tableofcontents
+\end{frame}
+
+\section{Introduction}
+\begin{frame}{Background}
+
+\textcolor{blue}{\textbf{1.Field Extension}}\\[2mm]
+A field E is said to be an extension field of a field F denoted by E/F, if F can be embedded in E.\\[8mm]
+
+\textcolor{blue}{\textbf{2.Galois Field Extension}}\\[2mm]
+The field E of F is said to be the Galois extension if E is normal extension of F.[8mm]
+
+\textcolor{blue}{\textbf{3.Galois Group}}\\[2mm]
+Let E/F. Then the set of all \underline{automorphisms} of E that
+fixes F, denoted by Aut(E/F) forms a group under the function
+composition. This group is called the Galois Group%\cite{foote}.
+
+\end{frame}
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

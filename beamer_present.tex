@@ -1,0 +1,114 @@
+\documentclass{beamer}
+
+
+\usepackage{ragged2e}\justifying  %text justifying
+\usepackage{txfonts}     %for fonts
+\usepackage{appendixnumberbeamer}   %to correct page number in appendix
+\usepackage{textpos}        % print logo at side of headbar
+\setlength{\parskip}{5pt} %distance between paragraphs
+
+%-----------------------------------------------------------------------------------------------------------------------
+\usetheme[secheader]{madrid}
+\useinnertheme{rectange}
+%\useoutertheme{sidebar}
+%\usecolortheme{wolverine}
+
+\definecolor{burgundy}{rbg}{0.5 0 0.15}      %for custom colortheme
+\usecolortheme[named=burgundy]{structure}
+
+\usefonttheme{serif}
+%---------------------------------------------------------------------------------------------------------------------------
+\setbeamersize{text margin left=7mm, text margin right=7mm}  %setting margins
+\setbeamertemplate{frametitle}[default][left, leftskip=1cm]   %moving title of frame to more right
+\setbeamertemplate{frametitle continuation}{\frametitle{Refrences}}
+\setbeamertemplate{bibliography item}[text]  %for numbering of bib items
+\setbeamertemplate{navigation symbols}{}	%supress navigation symbols
+
+
+\setbeamerfont{title}{series=\bfseries, size=\LARGE}  %for LARGE and bfseries title of the  presentation.
+\setbeamerfont{author}{series=\bfseries}
+\setbeamerfont{inistitue}{series=\bfseries}
+\setbeamerfont{date}{series=\bfseries}
+\setbeamerfont{frametitle}{series=\bfseries}
+
+\setbeamercolor{title}{bg=blue, fg=red}
+\setbeamercolor{author}{fg=blue}
+\setbeamercolor{inistitue}{fb=burgundy}
+\setbeamercolor{date}{fg=red}
+
+
+\setbeamercolor{author in head/foot}{bg=green}
+\setbeamercolor{title in head/foot}{bg=gray}
+\setbeamercolor{date in head/foot}{bg=black!50!red}
+\setbeamercolor{page number in head/foot}{bg=blue}
+\setbeamercolor{section in head/foot}{bg=purple}
+\setbeamercolor{palatte quaternary}{bg=blue!10}
+
+\addtobeamertemplate{frametitle}{}{
+\begin{textblock*}{100mm}(0.95\linewidth,-9mm)
+	\includegraphics[scale=0.2]{imagefile}
+\end{textblock*}
+}
+
+%custom-footline
+\setbeamertemplate{footline}{
+	\leavevmode\bfseries
+	\begin{beamercolorbox}[wd=0.3\paperwidth, ht=7pt, dp=2.5pt, center]{author in head/foot}
+		\insertshortauthor~(\insertshortinstitute)
+	\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=0.38\paperwidth, ht=7pt, dp=2.5pt, center]{title in head/foot}
+		\insertshorttitle
+	\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=0.22\paperwidth, ht=7pt, dp=2.5pt, center]{date in head/foot}
+		\insertshortdate
+	\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=0.1\paperwidth, ht=7pt, dp=2.5pt, center]{page number in head/foot}
+		\insertframenumber/\inserttotalframenumber
+	\end{beamercolorbox}%
+}
+
+%custom headline
+\setbeamertemplate{headline}{
+	\leavevmode\bfseries
+	\begin{beamercolorbox}[wd=0.25\paperwidth, ht=7pt, dp=2.5pt, center]{section in head/foot}
+		\insertsectionhead
+	\end{beamercolorbox}%
+	\begin{beamercolorbox}[wd=0.75\paperwidth, ht=7pt, dp=2.5pt, center]{palatte quaternary}
+		\insertsectionnavigationhorizontal{[0.75\paperwidth}{}{}
+	\end{beamercolorbox}%
+}
+
+
+
+%---------------------------------------------------------------------------------------------------------------------------
+
+\author[shortname for header/footer]{Sandesh Thakuri}
+%\logo{includegraphix[options]{path}  %logo for each frame
+
+
+
+
+\begin{document}
+	\begin{frame}[plain, noframenumbering]    %for not printing logo in title
+		/maketitle
+	\end{frame}
+
+	\begin{frame}[t]{Introduction}
+		Intro.
+	\end{frame}
+
+	\begin{frame}{columns}[t]  %for top alingment
+		\begin{column}
+			\column{0.5\linewidth}  %useful for placing many figures
+		\end{column}
+
+		\begin{frame}[t, allowframebreaks]{Refrences}  %for too many refrences not sufficent in one frame,t for top alingment
+
+		\end{frame}
+
+		\begin{frame}{themes}
+			five types of theme.
+			setbeamerfont
+			setbeamertemplete
+			setbeamercolor
+		\end{frame}
