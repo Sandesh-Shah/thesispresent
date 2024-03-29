@@ -3,6 +3,8 @@
  (lambda ()
    (setq TeX-command-extra-options
          "-shell-escape")
+   (TeX-add-to-alist 'LaTeX-provided-package-options
+                     '(("tcolorbox" "most")))
    (TeX-run-style-hooks
     "wrapfig"
     "rotating"
@@ -12,9 +14,14 @@
     "pgfplots"
     "textpos"
     "amsmath"
-    "amssymb")
+    "amssymb"
+    "tcolorbox")
    (TeX-add-symbols
     "myfootline"
-    "tikzonlytitlepage"))
+    "tikzonlytitlepage")
+   (LaTeX-add-xcolor-definecolors
+    "burgundy"
+    "titleleft"
+    "titleright"))
  :latex)
 

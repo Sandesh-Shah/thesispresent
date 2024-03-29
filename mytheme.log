@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.7)  2 FEB 2024 20:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.7)  27 MAR 2024 20:35
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -147,12 +147,72 @@ l.11 \usepackage{
 between \documentclass and \begin{document}.
 
 
+./mytheme.sty:12: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \usepackage[most]{
+                       tcolorbox}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
 Overfull \hbox (20.0pt too wide) in paragraph at lines 5--13
 []
  []
 
-./mytheme.sty:17: Undefined control sequence.
-l.17 \usetheme
+./mytheme.sty:14: Undefined control sequence.
+l.14 \setbeamertemplate
+                       {bibliography item}[text]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./mytheme.sty:14: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \setbeamertemplate{b
+                         ibliography item}[text]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 14--15
+[]
+ []
+
+./mytheme.sty:18: Undefined control sequence.
+l.18 \usetheme
               {Boadilla}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -161,13 +221,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./mytheme.sty:17: LaTeX Error: Missing \begin{document}.
+./mytheme.sty:18: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 \usetheme{B
+l.18 \usetheme{B
                 oadilla}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -180,8 +240,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
-./mytheme.sty:19: Undefined control sequence.
-l.19 \useinnertheme
+./mytheme.sty:20: Undefined control sequence.
+l.20 \useinnertheme
                    {rectangles}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -200,12 +260,12 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 17--20
+Overfull \hbox (20.0pt too wide) in paragraph at lines 18--21
 []
  []
 
-./mytheme.sty:21: Undefined control sequence.
-l.21 \definecolor
+./mytheme.sty:22: Undefined control sequence.
+l.22 \definecolor
                  {burgundy}{rgb}{0.5 0 0.15}      %for custom colortheme
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -214,13 +274,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./mytheme.sty:21: LaTeX Error: Missing \begin{document}.
+./mytheme.sty:22: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 \definecolor{b
+l.22 \definecolor{b
                    urgundy}{rgb}{0.5 0 0.15}      %for custom colortheme
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -245,12 +305,12 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 21--23
+Overfull \hbox (20.0pt too wide) in paragraph at lines 22--24
 []
  []
 
-./mytheme.sty:25: Undefined control sequence.
-l.25 \setbeamertemplate
+./mytheme.sty:26: Undefined control sequence.
+l.26 \setbeamertemplate
                        {navigation symbols}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -259,13 +319,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./mytheme.sty:25: LaTeX Error: Missing \begin{document}.
+./mytheme.sty:26: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 \setbeamertemplate{n
+l.26 \setbeamertemplate{n
                          avigation symbols}{}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -287,9 +347,9 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no s in font nullfont!
-./mytheme.sty:26: Undefined control sequence.
-l.26 \setbeamersize
-                   {text margin left=7mm, text margin right=7mm} % textmargin
+./mytheme.sty:27: Undefined control sequence.
+l.27 \setbeamersize
+                   {text margin left=5mm, text margin right=5mm} % textmargin
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -311,7 +371,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -331,17 +391,17 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no m in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 25--27
+Overfull \hbox (20.0pt too wide) in paragraph at lines 26--28
 []
  []
 
 ./mytheme.sty:29: Undefined control sequence.
 l.29 \setbeamercolor
-                    {author in head/foot}{bg=blue!60!violet}
+                    {frametitle}{bg=blue, fg=white}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -355,156 +415,164 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 \setbeamercolor{a
-                      uthor in head/foot}{bg=blue!60!violet}
+l.29 \setbeamercolor{f
+                      rametitle}{bg=blue, fg=white}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no a in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no / in font nullfont!
 Missing character: There is no f in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-./mytheme.sty:30: Undefined control sequence.
-l.30 \setbeamercolor
-                    {title in head/foot}{bg=purple!80!magenta}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ! in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no m in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-./mytheme.sty:31: Undefined control sequence.
-l.31 \setbeamercolor
-                    {page number in head/foot}{bg=orange!85!red, fg=burgundy}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no y in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+./mytheme.sty:30: Undefined control sequence.
+l.30 \setbeamercolor
+                    {author in head/foot}{bg=blue}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 29--32
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+./mytheme.sty:31: Undefined control sequence.
+l.31 \setbeamercolor
+                    {title in head/foot}{bg=red!75!black}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+./mytheme.sty:32: Undefined control sequence.
+l.32 \setbeamercolor
+                    {page number in head/foot}{bg=blue, fg=white}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 29--33
 []
  []
 
-./mytheme.sty:33: Undefined control sequence.
-l.33 \setbeamercolor
-                    {background canvas}{bg=orange!10}
+./mytheme.sty:34: Undefined control sequence.
+l.34 \setbeamercolor
+                    {background canvas}{bg=gray!10}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -512,14 +580,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./mytheme.sty:33: LaTeX Error: Missing \begin{document}.
+./mytheme.sty:34: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 \setbeamercolor{b
-                      ackground canvas}{bg=orange!10}
+l.34 \setbeamercolor{b
+                      ackground canvas}{bg=gray!10}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -542,23 +610,21 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no y in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 33--34
+Overfull \hbox (20.0pt too wide) in paragraph at lines 34--35
 []
  []
 
 ./mytheme.sty:38: Undefined control sequence.
 l.38 \colorlet
-              {titleleft}{blue!85!violet}
+              {titleleft}{blue}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -573,7 +639,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.38 \colorlet{t
-                itleleft}{blue!85!violet}
+                itleleft}{blue}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -590,19 +656,9 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
 ./mytheme.sty:39: Undefined control sequence.
 l.39 \colorlet
-              {titleright}{orange!80!red}
+              {titleright}{blue}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -619,71 +675,17 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 38--40
 []
  []
 
-./mytheme.sty:41: Undefined control sequence.
-l.41 \setbeamercolor
-                    *{frametitle}{fg=white}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./mytheme.sty:41: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 \setbeamercolor*
-                     {frametitle}{fg=white}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no * in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 41--42
-[] 
- []
-
-./mytheme.sty:44: Undefined control sequence.
-l.44 \pgfdeclarehorizontalshading
+./mytheme.sty:42: Undefined control sequence.
+l.42 \pgfdeclarehorizontalshading
                                  [titleleft,titleright]{beamer@frametitlesha...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -692,13 +694,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./mytheme.sty:44: LaTeX Error: Missing \begin{document}.
+./mytheme.sty:42: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \pgfdeclarehorizontalshading[
+l.42 \pgfdeclarehorizontalshading[
                                   titleleft,titleright]{beamer@frametitlesha...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -748,19 +750,19 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
-./mytheme.sty:44: Missing number, treated as zero.
+./mytheme.sty:42: Missing number, treated as zero.
 <to be read again> 
                    }
-l.44 ...ght]{beamer@frametitleshade}{\paperheight}
+l.42 ...ght]{beamer@frametitleshade}{\paperheight}
                                                   {%
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./mytheme.sty:44: Illegal unit of measure (pt inserted).
+./mytheme.sty:42: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.44 ...ght]{beamer@frametitleshade}{\paperheight}
+l.42 ...ght]{beamer@frametitleshade}{\paperheight}
                                                   {%
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -798,19 +800,19 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no ( in font nullfont!
-./mytheme.sty:46: Missing number, treated as zero.
+./mytheme.sty:44: Missing number, treated as zero.
 <to be read again> 
                    )
-l.46   color(\paperwidth)
+l.44   color(\paperwidth)
                          =(titleright)}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./mytheme.sty:46: Illegal unit of measure (pt inserted).
+./mytheme.sty:44: Illegal unit of measure (pt inserted).
 <to be read again> 
                    )
-l.46   color(\paperwidth)
+l.44   color(\paperwidth)
                          =(titleright)}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -834,13 +836,13 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 44--47
+Overfull \hbox (20.0pt too wide) in paragraph at lines 42--45
 []
  []
 
-./mytheme.sty:48: Undefined control sequence.
-l.48   \defbeamertemplate
-                         *{frametitle}{horizontal shading}
+./mytheme.sty:46: Undefined control sequence.
+l.46 \defbeamertemplate
+                       *{frametitle}{horizontal shading}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -848,14 +850,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./mytheme.sty:48: LaTeX Error: Missing \begin{document}.
+./mytheme.sty:46: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48   \defbeamertemplate*
-                          {frametitle}{horizontal shading}
+l.46 \defbeamertemplate*
+                        {frametitle}{horizontal shading}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -887,43 +889,43 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-./mytheme.sty:50: You can't use `\prevdepth' in horizontal mode.
+./mytheme.sty:48: You can't use `\prevdepth' in horizontal mode.
 \nointerlineskip ->\prevdepth 
                               -\@m \p@ 
-l.50     \nointerlineskip
-                         %
+l.48   \nointerlineskip
+                       %
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no - in font nullfont!
-./mytheme.sty:50: Missing $ inserted.
+./mytheme.sty:48: Missing $ inserted.
 <inserted text> 
                 $
-l.50     \nointerlineskip
-                         %
+l.48   \nointerlineskip
+                       %
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 50.
+(Font)              <7> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 50.
-./mytheme.sty:52: Missing number, treated as zero.
+(Font)              <5> on input line 48.
+./mytheme.sty:50: Missing number, treated as zero.
 <to be read again> 
                    \hbox 
-l.52     \hbox
-              {\leavevmode
+l.50   \hbox
+            {\leavevmode
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./mytheme.sty:52: Illegal unit of measure (pt inserted).
+./mytheme.sty:50: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \hbox 
-l.52     \hbox
-              {\leavevmode
+l.50   \hbox
+            {\leavevmode
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -931,49 +933,49 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+./mytheme.sty:51: Undefined control sequence.
+l.51     \advance\beamer@leftmargin
+                                    by -12bp%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mytheme.sty:51: You can't use `the letter b' after \advance.
+l.51     \advance\beamer@leftmargin b
+                                     y -12bp%
+I'm forgetting what you said and not changing anything.
+
+Missing character: There is no y in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no p in font nullfont!
+./mytheme.sty:52: Undefined control sequence.
+l.52     \advance\beamer@rightmargin
+                                     by -12bp%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mytheme.sty:52: You can't use `the letter b' after \advance.
+l.52     \advance\beamer@rightmargin b
+                                      y -12bp%
+I'm forgetting what you said and not changing anything.
+
+Missing character: There is no y in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no p in font nullfont!
 ./mytheme.sty:53: Undefined control sequence.
-l.53       \advance\beamer@leftmargin
-                                      by -12bp%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./mytheme.sty:53: You can't use `the letter b' after \advance.
-l.53       \advance\beamer@leftmargin b
-                                       y -12bp%
-I'm forgetting what you said and not changing anything.
-
-Missing character: There is no y in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no p in font nullfont!
-./mytheme.sty:54: Undefined control sequence.
-l.54       \advance\beamer@rightmargin
-                                       by -12bp%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./mytheme.sty:54: You can't use `the letter b' after \advance.
-l.54       \advance\beamer@rightmargin b
-                                        y -12bp%
-I'm forgetting what you said and not changing anything.
-
-Missing character: There is no y in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no p in font nullfont!
-./mytheme.sty:55: Undefined control sequence.
-l.55       \beamer@tempdim
-                          =\textwidth%
+l.53     \beamer@tempdim
+                        =\textwidth%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -981,20 +983,98 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no = in font nullfont!
-./mytheme.sty:56: Missing number, treated as zero.
+./mytheme.sty:54: Missing number, treated as zero.
 <to be read again> 
                    \advance 
-l.56       \advance
-                   \beamer@tempdim by \beamer@leftmargin%
+l.54     \advance
+                 \beamer@tempdim by \beamer@leftmargin%
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./mytheme.sty:54: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \advance 
+l.54     \advance
+                 \beamer@tempdim by \beamer@leftmargin%
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./mytheme.sty:54: Undefined control sequence.
+l.54     \advance\beamer@tempdim
+                                 by \beamer@leftmargin%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mytheme.sty:54: You can't use `the letter b' after \advance.
+l.54     \advance\beamer@tempdim b
+                                  y \beamer@leftmargin%
+I'm forgetting what you said and not changing anything.
+
+Missing character: There is no y in font nullfont!
+./mytheme.sty:54: Undefined control sequence.
+l.54 ...vance\beamer@tempdim by \beamer@leftmargin
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mytheme.sty:55: Undefined control sequence.
+l.55     \advance\beamer@tempdim
+                                 by \beamer@rightmargin%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mytheme.sty:55: You can't use `the letter b' after \advance.
+l.55     \advance\beamer@tempdim b
+                                  y \beamer@rightmargin%
+I'm forgetting what you said and not changing anything.
+
+Missing character: There is no y in font nullfont!
+./mytheme.sty:55: Undefined control sequence.
+l.55 ...ance\beamer@tempdim by \beamer@rightmargin
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mytheme.sty:56: Undefined control sequence.
+l.56     \hskip-\Gm@lmargin
+                           \hbox{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mytheme.sty:56: Missing number, treated as zero.
+<to be read again> 
+                   \hbox 
+l.56     \hskip-\Gm@lmargin\hbox
+                                {%
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 ./mytheme.sty:56: Illegal unit of measure (pt inserted).
 <to be read again> 
-                   \advance 
-l.56       \advance
-                   \beamer@tempdim by \beamer@leftmargin%
+                   \hbox 
+l.56     \hskip-\Gm@lmargin\hbox
+                                {%
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -1002,113 +1082,27 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./mytheme.sty:56: Undefined control sequence.
-l.56       \advance\beamer@tempdim
-                                   by \beamer@leftmargin%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./mytheme.sty:56: You can't use `the letter b' after \advance.
-l.56       \advance\beamer@tempdim b
-                                    y \beamer@leftmargin%
-I'm forgetting what you said and not changing anything.
-
-Missing character: There is no y in font nullfont!
-./mytheme.sty:56: Undefined control sequence.
-l.56 ...vance\beamer@tempdim by \beamer@leftmargin
-                                                  %
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 ./mytheme.sty:57: Undefined control sequence.
-l.57       \advance\beamer@tempdim
-                                   by \beamer@rightmargin%
+l.57       \setbox\beamer@tempbox
+                                 =\hbox{\begin{minipage}[b]{\paperwidth}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./mytheme.sty:57: You can't use `the letter b' after \advance.
-l.57       \advance\beamer@tempdim b
-                                    y \beamer@rightmargin%
-I'm forgetting what you said and not changing anything.
-
-Missing character: There is no y in font nullfont!
-./mytheme.sty:57: Undefined control sequence.
-l.57 ...ance\beamer@tempdim by \beamer@rightmargin
-                                                  %
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./mytheme.sty:58: Undefined control sequence.
-l.58       \hskip-\Gm@lmargin
-                             \hbox{%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./mytheme.sty:58: Missing number, treated as zero.
-<to be read again> 
-                   \hbox 
-l.58       \hskip-\Gm@lmargin\hbox
-                                  {%
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./mytheme.sty:58: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \hbox 
-l.58       \hskip-\Gm@lmargin\hbox
-                                  {%
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./mytheme.sty:59: Undefined control sequence.
-l.59         \setbox\beamer@tempbox
-                                   =\hbox{\begin{minipage}[b]{\paperwidth}%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./mytheme.sty:59: Missing number, treated as zero.
+./mytheme.sty:57: Missing number, treated as zero.
 <to be read again> 
                    =
-l.59         \setbox\beamer@tempbox=
-                                    \hbox{\begin{minipage}[b]{\paperwidth}%
+l.57       \setbox\beamer@tempbox=
+                                  \hbox{\begin{minipage}[b]{\paperwidth}%
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./mytheme.sty:63: Improper `at' size (0.0pt), replaced by 10pt.
-<to be read again> 
-                   relax 
-l.63             \hskip7mm {\bfseries
-                                     \insertframetitle}%
-I can only handle fonts at positive sizes that are
-less than 2048pt, so I've changed what you said to 10pt.
-
-./mytheme.sty:63: Undefined control sequence.
-l.63 ...     \hskip7mm {\bfseries\insertframetitle
-                                                  }%
+./mytheme.sty:61: Undefined control sequence.
+l.61           \insertframetitle
+                                %
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1116,12 +1110,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (17.07181pt too wide) in paragraph at lines 62--67
+Overfull \hbox (17.07181pt too wide) in paragraph at lines 60--65
  []  
  []
 
-./mytheme.sty:67: Undefined control sequence.
-l.67             \par{\usebeamerfont
+./mytheme.sty:65: Undefined control sequence.
+l.65             \par{\usebeamerfont
                                     *{framesubtitle}{\usebeamercolor[fg]{fra...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1143,8 +1137,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-./mytheme.sty:67: Undefined control sequence.
-l.67 ...beamerfont*{framesubtitle}{\usebeamercolor
+./mytheme.sty:65: Undefined control sequence.
+l.65 ...beamerfont*{framesubtitle}{\usebeamercolor
                                                   [fg]{framesubtitle}\insert...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1169,8 +1163,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-./mytheme.sty:67: Undefined control sequence.
-l.67 ...lor[fg]{framesubtitle}\insertframesubtitle
+./mytheme.sty:65: Undefined control sequence.
+l.65 ...lor[fg]{framesubtitle}\insertframesubtitle
                                                   }\strut\par}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1179,13 +1173,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (17.07181pt too wide) in paragraph at lines 67--67
+Overfull \hbox (17.07181pt too wide) in paragraph at lines 65--65
  []  
  []
 
-./mytheme.sty:72: Undefined control sequence.
-l.72         \beamer@tempdim
-                            =\ht\beamer@tempbox%
+./mytheme.sty:70: Undefined control sequence.
+l.70       \beamer@tempdim
+                          =\ht\beamer@tempbox%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1193,38 +1187,38 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no = in font nullfont!
-./mytheme.sty:72: Undefined control sequence.
-l.72         \beamer@tempdim=\ht\beamer@tempbox
-                                               %
+./mytheme.sty:70: Undefined control sequence.
+l.70       \beamer@tempdim=\ht\beamer@tempbox
+                                             %
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./mytheme.sty:73: Missing number, treated as zero.
+./mytheme.sty:71: Missing number, treated as zero.
 <to be read again> 
                    \advance 
-l.73         \advance
-                     \beamer@tempdim by 2pt%
+l.71       \advance
+                   \beamer@tempdim by 2pt%
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./mytheme.sty:73: Missing number, treated as zero.
+./mytheme.sty:71: Missing number, treated as zero.
 <to be read again> 
                    \advance 
-l.73         \advance
-                     \beamer@tempdim by 2pt%
+l.71       \advance
+                   \beamer@tempdim by 2pt%
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./mytheme.sty:73: Illegal unit of measure (pt inserted).
+./mytheme.sty:71: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \advance 
-l.73         \advance
-                     \beamer@tempdim by 2pt%
+l.71       \advance
+                   \beamer@tempdim by 2pt%
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -1232,18 +1226,18 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./mytheme.sty:73: Undefined control sequence.
-l.73         \advance\beamer@tempdim
-                                     by 2pt%
+./mytheme.sty:71: Undefined control sequence.
+l.71       \advance\beamer@tempdim
+                                   by 2pt%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./mytheme.sty:73: You can't use `the letter b' after \advance.
-l.73         \advance\beamer@tempdim b
-                                      y 2pt%
+./mytheme.sty:71: You can't use `the letter b' after \advance.
+l.71       \advance\beamer@tempdim b
+                                    y 2pt%
 I'm forgetting what you said and not changing anything.
 
 Missing character: There is no y in font nullfont!
@@ -1251,14 +1245,14 @@ Missing character: There is no 2 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 
-./mytheme.sty:74: LaTeX Error: Environment pgfpicture undefined.
+./mytheme.sty:72: LaTeX Error: Environment pgfpicture undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74         \begin{pgfpicture}
-                               {0pt}{0pt}{\paperwidth}{\beamer@tempdim}
+l.72       \begin{pgfpicture}
+                             {0pt}{0pt}{\paperwidth}{\beamer@tempdim}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1269,19 +1263,19 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
-./mytheme.sty:74: Missing number, treated as zero.
+./mytheme.sty:72: Missing number, treated as zero.
 <to be read again> 
                    }
-l.74 ... \begin{pgfpicture}{0pt}{0pt}{\paperwidth}
+l.72 ... \begin{pgfpicture}{0pt}{0pt}{\paperwidth}
                                                   {\beamer@tempdim}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./mytheme.sty:74: Illegal unit of measure (pt inserted).
+./mytheme.sty:72: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.74 ... \begin{pgfpicture}{0pt}{0pt}{\paperwidth}
+l.72 ... \begin{pgfpicture}{0pt}{0pt}{\paperwidth}
                                                   {\beamer@tempdim}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1290,8 +1284,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./mytheme.sty:74: Undefined control sequence.
-l.74 ...re}{0pt}{0pt}{\paperwidth}{\beamer@tempdim
+./mytheme.sty:72: Undefined control sequence.
+l.72 ...re}{0pt}{0pt}{\paperwidth}{\beamer@tempdim
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1299,9 +1293,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./mytheme.sty:75: Undefined control sequence.
-l.75           \usebeamercolor
-                              {frametitle right}
+./mytheme.sty:73: Undefined control sequence.
+l.73         \usebeamercolor
+                            {frametitle right}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1323,26 +1317,26 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
-./mytheme.sty:76: Undefined control sequence.
-l.76           \pgfpathrectangle
-                                {\pgfpointorigin}{\pgfpoint{\paperwidth}{\be...
+./mytheme.sty:74: Undefined control sequence.
+l.74         \pgfpathrectangle
+                              {\pgfpointorigin}{\pgfpoint{\paperwidth}{\beam...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./mytheme.sty:76: Undefined control sequence.
-l.76           \pgfpathrectangle{\pgfpointorigin
-                                                }{\pgfpoint{\paperwidth}{\be...
+./mytheme.sty:74: Undefined control sequence.
+l.74         \pgfpathrectangle{\pgfpointorigin
+                                              }{\pgfpoint{\paperwidth}{\beam...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./mytheme.sty:76: Undefined control sequence.
-l.76 ...gfpathrectangle{\pgfpointorigin}{\pgfpoint
+./mytheme.sty:74: Undefined control sequence.
+l.74 ...gfpathrectangle{\pgfpointorigin}{\pgfpoint
                                                   {\paperwidth}{\beamer@temp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1350,19 +1344,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./mytheme.sty:76: Missing number, treated as zero.
+./mytheme.sty:74: Missing number, treated as zero.
 <to be read again> 
                    }
-l.76 ...le{\pgfpointorigin}{\pgfpoint{\paperwidth}
+l.74 ...le{\pgfpointorigin}{\pgfpoint{\paperwidth}
                                                   {\beamer@tempdim}}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./mytheme.sty:76: Illegal unit of measure (pt inserted).
+./mytheme.sty:74: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.76 ...le{\pgfpointorigin}{\pgfpoint{\paperwidth}
+l.74 ...le{\pgfpointorigin}{\pgfpoint{\paperwidth}
                                                   {\beamer@tempdim}}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1371,8 +1365,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./mytheme.sty:76: Undefined control sequence.
-l.76 ...in}{\pgfpoint{\paperwidth}{\beamer@tempdim
+./mytheme.sty:74: Undefined control sequence.
+l.74 ...in}{\pgfpoint{\paperwidth}{\beamer@tempdim
                                                   }}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1380,9 +1374,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./mytheme.sty:77: Undefined control sequence.
-l.77           \pgfusepath
-                          {clip}
+./mytheme.sty:75: Undefined control sequence.
+l.75         \pgfusepath
+                        {clip}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1393,9 +1387,9 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no p in font nullfont!
-./mytheme.sty:78: Undefined control sequence.
-l.78           \pgftext
-                       [left,base]{\pgfuseshading{beamer@frametitleshade}}
+./mytheme.sty:76: Undefined control sequence.
+l.76         \pgftext
+                     [left,base]{\pgfuseshading{beamer@frametitleshade}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1413,9 +1407,9 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ] in font nullfont!
-./mytheme.sty:78: Undefined control sequence.
-l.78           \pgftext[left,base]{\pgfuseshading
-                                                 {beamer@frametitleshade}}
+./mytheme.sty:76: Undefined control sequence.
+l.76         \pgftext[left,base]{\pgfuseshading
+                                               {beamer@frametitleshade}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1445,21 +1439,39 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 
-./mytheme.sty:79: LaTeX Error: \begin{document} ended by \end{pgfpicture}.
+./mytheme.sty:77: LaTeX Error: \begin{document} ended by \end{pgfpicture}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79         \end{pgfpicture}
-                             
+l.77       \end{pgfpicture}
+                           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+./mytheme.sty:79: Undefined control sequence.
+l.79       \box\beamer@tempbox
+                              %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mytheme.sty:80: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.80     }
+          %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
 ./mytheme.sty:81: Undefined control sequence.
-l.81         \box\beamer@tempbox
-                                %
+l.81     \hskip-\Gm@rmargin
+                           %
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1469,35 +1481,17 @@ and I'll forget about whatever was undefined.
 ./mytheme.sty:82: Missing number, treated as zero.
 <to be read again> 
                    }
-l.82       }
-            %
+l.82   }
+        %
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./mytheme.sty:83: Undefined control sequence.
-l.83       \hskip-\Gm@rmargin
-                             %
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./mytheme.sty:84: Missing number, treated as zero.
+./mytheme.sty:82: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.84     }
-          %
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./mytheme.sty:84: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.84     }
-          %
+l.82   }
+        %
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -1505,22 +1499,22 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./mytheme.sty:85: Missing $ inserted.
+./mytheme.sty:83: Missing $ inserted.
 <inserted text> 
                 $
-l.85     \vskip
+l.83     \vskip
                -2pt
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 Missing character: There is no è in font cmex10!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 48--85
+Overfull \hbox (20.0pt too wide) in paragraph at lines 46--83
 []
  []
 
-./mytheme.sty:198: Undefined control sequence.
-l.198 \addtobeamertemplate
+./mytheme.sty:194: Undefined control sequence.
+l.194 \addtobeamertemplate
                           {frametitle}{}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1529,13 +1523,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./mytheme.sty:198: LaTeX Error: Missing \begin{document}.
+./mytheme.sty:194: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 \addtobeamertemplate{f
+l.194 \addtobeamertemplate{f
                             rametitle}{}{
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1551,24 +1545,24 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 
-./mytheme.sty:199: LaTeX Error: Environment textblock* undefined.
+./mytheme.sty:195: LaTeX Error: Environment textblock* undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.199 \begin{textblock*}
-                        {10mm}(70mm,-6mm)
+l.195 \begin{textblock*}
+                        {7mm}(110mm,-6mm)
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 7 in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no ( in font nullfont!
-Missing character: There is no 7 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -1578,8 +1572,8 @@ Missing character: There is no 6 in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no ) in font nullfont!
-./mytheme.sty:200: Undefined control sequence.
-l.200   \includegraphics
+./mytheme.sty:196: Undefined control sequence.
+l.196   \includegraphics
                         [height=6mm, width=6mm]{tulogo.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1620,17 +1614,216 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-./mytheme.sty:201: LaTeX Error: \begin{document} ended by \end{textblock*}.
+./mytheme.sty:197: LaTeX Error: \begin{document} ended by \end{textblock*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 \end{textblock*}
+l.197 \end{textblock*}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 194--199
+[]
+ []
+
+./mytheme.sty:202: Undefined control sequence.
+l.202 \setbeamertemplate
+                        {theorem begin}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./mytheme.sty:202: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 \setbeamertemplate{t
+                          heorem begin}{%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+
+./mytheme.sty:203: LaTeX Error: Environment tcolorbox undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203   \begin{tcolorbox}
+                         [colframe=gray!10, boxsep=-1pt, title={\textcolor{b...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+./mytheme.sty:203: Undefined control sequence.
+l.203 ...e=gray!10, boxsep=-1pt, title={\textcolor
+                                                  {blue}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+./mytheme.sty:205: Undefined control sequence.
+l.205           {\bfseries \inserttheoremnumber
+                                               .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mytheme.sty:206: Undefined control sequence.
+l.206 ...ition\@empty\else\ \inserttheoremaddition
+                                                  \fi%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ] in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 202--209
+[]
+ []
+
+
+Overfull \hbox (3.19443pt too wide) in paragraph at lines 202--209
+\OT1/cmr/bx/n/10 .
+ []
+
+./mytheme.sty:211: Extra }, or forgotten \endgroup.
+l.211   }
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./mytheme.sty:212: Undefined control sequence.
+l.212   \setbeamertemplate
+                          {theorem end}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./mytheme.sty:212: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.212   \setbeamertemplate{t
+                            heorem end}{%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+
+./mytheme.sty:213: LaTeX Error: \begin{document} ended by \end{tcolorbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213   \end{tcolorbox}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./mytheme.sty:213: Missing } inserted.
+<inserted text> 
+                }
+l.213   \end{tcolorbox}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 212--214
+[]
+ []
 
 )
 ! Emergency stop.
@@ -1640,11 +1833,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 41 strings out of 480247
- 698 string characters out of 5896152
- 286214 words of memory out of 5000000
- 18083 multiletter control sequences out of 15000+600000
+ 42 strings out of 480247
+ 710 string characters out of 5896152
+ 286075 words of memory out of 5000000
+ 18084 multiletter control sequences out of 15000+600000
  469567 words of font info for 29 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 19i,7n,12p,159b,144s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19i,6n,12p,159b,101s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

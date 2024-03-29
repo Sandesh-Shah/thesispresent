@@ -9,6 +9,9 @@
 \usetikzlibrary{positioning, shapes.geometric, fit}
 \usepackage{textpos}        % print logo at side of headbar
 \usepackage{amsmath, amssymb}
+\usepackage[most]{tcolorbox}
+
+\setbeamertemplate{bibliography item}[text]
 
 % THEMES Options
 % --------------------------------------------------------------------------------------
@@ -21,82 +24,79 @@
 
 
 \setbeamertemplate{navigation symbols}{}
-\setbeamersize{text margin left=7mm, text margin right=7mm} % textmargin
+\setbeamersize{text margin left=5mm, text margin right=5mm} % textmargin
 
+\setbeamercolor{frametitle}{bg=blue, fg=white}
+\setbeamercolor{author in head/foot}{bg=blue}
+\setbeamercolor{title in head/foot}{bg=red!75!black}
+\setbeamercolor{page number in head/foot}{bg=blue, fg=white}
 
-\setbeamercolor{author in head/foot}{bg=blue!60!violet}
-\setbeamercolor{title in head/foot}{bg=purple!80!magenta}
-\setbeamercolor{page number in head/foot}{bg=orange!85!red, fg=burgundy}
-
-\setbeamercolor{background canvas}{bg=orange!10}
+\setbeamercolor{background canvas}{bg=gray!10}
 
 % Frametitle
 % ---------------------------------------------------------------------------------------
-
-\colorlet{titleleft}{blue!85!violet}
-\colorlet{titleright}{orange!80!red}
-
-\setbeamercolor*{frametitle}{fg=white}
+\colorlet{titleleft}{blue}
+\colorlet{titleright}{blue}
 
 \makeatletter
 \pgfdeclarehorizontalshading[titleleft,titleright]{beamer@frametitleshade}{\paperheight}{%
   color(0pt)=(titleleft);
   color(\paperwidth)=(titleright)}
 
-  \defbeamertemplate*{frametitle}{horizontal shading}
-  {%
-    \nointerlineskip%
-    % \vskip-2pt%
-    \hbox{\leavevmode
-      \advance\beamer@leftmargin by -12bp%
-      \advance\beamer@rightmargin by -12bp%
-      \beamer@tempdim=\textwidth%
-      \advance\beamer@tempdim by \beamer@leftmargin%
-      \advance\beamer@tempdim by \beamer@rightmargin%
-      \hskip-\Gm@lmargin\hbox{%
-        \setbox\beamer@tempbox=\hbox{\begin{minipage}[b]{\paperwidth}%
-            \vbox{}\vskip-.75ex%
-            \leftskip0.3cm%
-            \rightskip0.3cm plus1fil\leavevmode
-            \hskip7mm {\mdseries\insertframetitle}%
-            \ifx\insertframesubtitle\@empty%
+\defbeamertemplate*{frametitle}{horizontal shading}
+{%
+  \nointerlineskip%
+  %\vskip-2pt%
+  \hbox{\leavevmode
+    \advance\beamer@leftmargin by -12bp%
+    \advance\beamer@rightmargin by -12bp%
+    \beamer@tempdim=\textwidth%
+    \advance\beamer@tempdim by \beamer@leftmargin%
+    \advance\beamer@tempdim by \beamer@rightmargin%
+    \hskip-\Gm@lmargin\hbox{%
+      \setbox\beamer@tempbox=\hbox{\begin{minipage}[b]{\paperwidth}%
+          \vbox{}\vskip-.75ex%
+          \leftskip0.3cm%
+          \rightskip0.3cm plus1fil\leavevmode
+          \insertframetitle%
+          \ifx\insertframesubtitle\@empty%
             \strut\par%
-            \else
+          \else
             \par{\usebeamerfont*{framesubtitle}{\usebeamercolor[fg]{framesubtitle}\insertframesubtitle}\strut\par}%
-            \fi%
-            \nointerlineskip
-            \vbox{}%
+          \fi%
+          \nointerlineskip
+          \vbox{}%
           \end{minipage}}%
-        \beamer@tempdim=\ht\beamer@tempbox%
-        \advance\beamer@tempdim by 2pt%
-        \begin{pgfpicture}{0pt}{0pt}{\paperwidth}{\beamer@tempdim}
-          \usebeamercolor{frametitle right}
-          \pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
-          \pgfusepath{clip}
-          \pgftext[left,base]{\pgfuseshading{beamer@frametitleshade}}
-        \end{pgfpicture}
-        \hskip-\paperwidth%
-        \box\beamer@tempbox%
-      }%
-      \hskip-\Gm@rmargin%
+      \beamer@tempdim=\ht\beamer@tempbox%
+      \advance\beamer@tempdim by 2pt%
+      \begin{pgfpicture}{0pt}{0pt}{\paperwidth}{\beamer@tempdim}
+        \usebeamercolor{frametitle right}
+        \pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
+        \pgfusepath{clip}
+        \pgftext[left,base]{\pgfuseshading{beamer@frametitleshade}}
+      \end{pgfpicture}
+      \hskip-\paperwidth%
+      \box\beamer@tempbox%
     }%
+    \hskip-\Gm@rmargin%
+  }%
     \vskip-2pt
-  }
-  \makeatother
+}
+\makeatother
 
 % Foot-line
 % -----------------------------------------------------------------------------------------
 \newcommand{\myfootline}{\setbeamertemplate{footline}{
-    \leavevmode\bfseries
-    \begin{beamercolorbox}[wd=0.37\paperwidth, ht=7pt, dp=2.5pt, center]{author in head/foot}
+    \leavevmode
+    \begin{beamercolorbox}[wd=0.33\paperwidth, ht=6pt, dp=2.5pt, center]{author in head/foot}
       \insertshortauthor~(\insertshortinstitute)
     \end{beamercolorbox}%
-    \begin{beamercolorbox}[wd=0.4\paperwidth, ht=7pt, dp=2.5pt, center]{title in head/foot}
-      \insertshorttitle
-    \end{beamercolorbox}%
-    \begin{beamercolorbox}[wd=0.3\paperwidth, ht=7pt, dp=2.5pt, center]{page number in head/foot}
-      \insertframenumber/\inserttotalframenumber
-    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=0.4\paperwidth, ht=6pt, dp=2.5pt, center]{title in head/foot}
+     \insertsubsection
+       \end{beamercolorbox}%
+     \begin{beamercolorbox}[wd=0.3\paperwidth, ht=6pt, dp=2.5pt, center]{page number in head/foot}
+       \insertframenumber/\inserttotalframenumber
+     \end{beamercolorbox}%
   }}
 
 
@@ -107,9 +107,7 @@
     \begin{tikzpicture}
       \hspace{5mm}
       \node[
-      fill,
-      left color= blue!85!violet,
-      right color= orange!85!red,
+      fill=blue!85!violet,
       inner ysep=7pt,
       text width=0.8\linewidth,
       minimum width=0.8\linewidth,
@@ -145,7 +143,7 @@
       bottom color= brown!50,
       inner xsep=9mm,
       inner ysep=2mm,
-      xshift=-5mm,
+      xshift=-2mm,
       yshift=-15mm,
       text=blue,
       minimum width=0.6\linewidth,
@@ -171,30 +169,49 @@
       right of=author,
       xshift=25mm,
       yshift=-3mm,
-      inner xsep=-10pt,
-      inner ysep=-2pt,
-      draw=brown!70!black,
+      inner xsep=0pt,
+      inner ysep=-5pt,
+      draw=brown!80!black,
       shade,
-      inner color=green!50,
+      inner color=blue!30,
       ellipse,
       ultra thick
       ]
-      (pic) {\includegraphics[height=23mm, width=25mm]{mypicrm.png}};
+      (pic) {\includegraphics[height=24mm, width=19mm]{mypicrm2.png}};
 
       \node[
       below of=supervisor,
       shade,
-      left color= blue!85!violet,
-      right color= orange!85!red,
+      left color=blue,
+      right color=red,
       yshift=-9mm,
       text=white,
-      minimum width=0.8\linewidth,
+      minimum width=0.7\linewidth,
       ] (date) {\small \bfseries \insertdate};
     \end{tikzpicture}
   }}
 
 \addtobeamertemplate{frametitle}{}{
-\begin{textblock*}{7mm}(70mm,-6mm)
+\begin{textblock*}{7mm}(110mm,-6mm)
   \includegraphics[height=6mm, width=6mm]{tulogo.png}
 \end{textblock*}
 }
+
+
+\makeatletter
+\setbeamertemplate{theorem begin}{%
+  \begin{tcolorbox}[colframe=gray!10, boxsep=-1pt, title={\textcolor{blue}{
+        {%
+          {\bfseries \inserttheoremnumber.
+          \ifx\inserttheoremaddition\@empty\else\ \inserttheoremaddition\fi%
+        }}%
+      }}]
+
+
+  }
+  \setbeamertemplate{theorem end}{%
+  \end{tcolorbox}
+
+}
+
+\makeatother
