@@ -13,10 +13,10 @@
 \beamer@subsectionintoc {4}{1}{Representation of Galois Fields}{21}{0}{4}
 \beamer@sectionintoc {5}{Application to Coding Theory}{23}{0}{5}
 \beamer@subsectionintoc {5}{1}{Error Correcting Codes}{23}{0}{5}
-\beamer@subsectionintoc {5}{2}{Decoding Process}{26}{0}{5}
+\beamer@subsectionintoc {5}{2}{Correcting Process}{26}{0}{5}
 \beamer@subsectionintoc {5}{3}{Usages}{28}{0}{5}
 \beamer@sectionintoc {6}{Application to Cryptography}{29}{0}{6}
 \beamer@subsectionintoc {6}{1}{Advance Encryption Standard}{29}{0}{6}
-\beamer@sectionintoc {7}{References}{35}{0}{7}
-\beamer@subsectionintoc {7}{1}{References}{35}{0}{7}
-\beamer@subsectionintoc {7}{2}{Acknowledgments}{36}{0}{7}
+\beamer@sectionintoc {7}{References}{36}{0}{7}
+\beamer@subsectionintoc {7}{1}{References}{36}{0}{7}
+\beamer@subsectionintoc {7}{2}{Acknowledgments}{37}{0}{7}

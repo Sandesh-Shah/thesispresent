@@ -72,7 +72,7 @@ In my thesis, I have \textcolor{violet}{explored the applications} of Galois The
   If \(F\) is a finite dimensional Galois extension of \(K\), then there is a \textcolor{magenta}{one-to-one correspondence between the set of all intermediate fields of \(F\) over \(K\) and the set of subgroups of the Galois group \(Aut_K^F\)} such that:
   \begin{enumerate}
   \item[i)] the relative dimension of two intermediate fields is equal to the relative index of the corresponding subgroups. In particular \(Aut_K^F\) has order \([F:K]\);
-  \item[ii)] \(F\) is Galois over every intermediate field \(E\), but \(E\) is Galois over \(K\) if and only if the corresponding subgroup \(E'= Aut_E^F\) is normal in \(G=Aut_K^F\). In this case \(G/E'\) is isomorphic to the Galois group \(Aut_K^E\) of \(E\) over \(K\) \cite{hunger}.
+  \item[ii)] \(F\) is Galois over every intermediate field \(E\), but \(E\) is Galois over \(K\) if and only if the corresponding subgroup \(H= Aut_E^F\) is normal in \(G=Aut_K^F\). In this case \(G/H\) is isomorphic to the Galois group \(Aut_K^E\) of \(E\) over \(K\) \cite{hunger}.
   \end{enumerate}
 \end{theorem}
 \end{tcolorbox}
@@ -157,7 +157,7 @@ But the map \(\sqrt{2} \longmapsto -\sqrt{2}\) does not fix  \(\mathbb{Q}(\sqrt{
 \end{frame}
 
 \begin{frame}{Structure of a Field}
-  The structure of a field as an extension field over some field is mirrored in the structure of the ``group'' of  permutations of its elements that keeps the base field fixed. But these permutations are the symmetries of the field. \textcolor{magenta}{So, the structure of field extension is equals to its own symmetry.}\\[2mm]
+  The structure of a field as an extension field over some field is mirrored in the structure of the ``group'' of  permutations of its elements that keeps the base field fixed. But these permutations are the symmetries of the field. \textcolor{magenta}{So, the structure of a field extension equals to structure of its own symmetry.}\\[2mm]
 
 The structure of a field is a \textcolor{green!50!black}{complicated} thing; specially if it is infinite. But the structure of a group is rather \textcolor{green!50!black}{simple}; especially if it is finite. So the Galois theory has fairly simplified the complicated thing in a very insightful and beautiful way.
 
@@ -251,7 +251,7 @@ The structure of a field is a \textcolor{green!50!black}{complicated} thing; spe
 
 \begin{frame}{Splitting Field}
 
-     Such a minimal field \(F\) where a polynomial \(f \in K[x]\) splits into linear factors and thus contains all roots of \(f(x)\) is called a splitting field of \(f\) over \(K\) \cite{hunger}.
+     Such a minimal field \(F\) which contains all roots of \(f \in K[x]\) is called a splitting field of \(f\) over \(K\) \cite{hunger} because \(f\) splits into linear factors in \(F\).
  \vspace{3mm}
 
  Thus, \textcolor{magenta}{an algebraic Galois extension is going to be characterized by a splitting field} of a polynomial over the base field.
@@ -274,37 +274,30 @@ The structure of a field is a \textcolor{green!50!black}{complicated} thing; spe
     The Galois group of a polynomial \(f \in K[x]\) is the group \(Aut_K^F\), where \(F\) is a splitting field of \(f\) over \(K\) \cite{hunger}.
   \end{definition}
 
-
+\vspace{2mm}
   \begin{tcolorbox}[colback=white, colframe=blue!40, boxsep=1mm]
     \begin{theorem}[Characterization of Galois Groups]
-      Let \(G\) be a Galois group of a polynomial \(f \in K[x]\).
+      Let \(G\) be a Galois group of a polynomial \(f \in K[x]\) of degree \(n\).
       \begin{enumerate}
-      \item[i)] \(G\) is isomorphic to a subgroup of some symmetric group \(S_n\) \cite{hunger}.
-      \item[ii)] If \(f\) is separable of degree \(n\), the \(n\) divides \(|G|\) and \(G\) isomorphic to a transitive subgroup of \(S_n\) \cite{hunger}.
+      \item[i)] \(G\) is  a subgroup of symmetric group \(S_n\).
+      \item[ii)] If \(f\) is separable, then \(G\) isomorphic to a transitive subgroup of \(S_n\) \cite{hunger}.
       \end{enumerate}
     \end{theorem}
   \end{tcolorbox}
-
-
-  \begin{theorem}[Corollary]
-    \begin{enumerate}
-    \item[i)] If the degree of \(f\) is \(2\) then its Galois group \(G \cong {\mathbb{Z}}_2\).
-    \item[ii)] If the degree of \(f\) is \(3\) then its Galois group \(G\) is either \(S_3\) or \(A_3\) \cite{hunger}.
-    \end{enumerate}
-  \end{theorem}
-
+  \vspace{3mm}
+\textcolor{green!50!black}{So, galois group of a quartic is a subgroup of \(S_4\).}
 \end{frame}
 
 \begin{frame}{Galois Group of Quartic}
   \begin{definition}[Resolvant Cubic of a Quartic]
 Let \(u_1,u_2,...,u_4\) be the roots of a quartic \(f \in K[x]\) and\\ \(\alpha=u_1u_2+u_3u_4,\) \(\beta=u_1u_3+u_2u_4,\) \(\gamma=u_1u_4+u_2u_3\). \\[3mm]
-\textcolor{green!50!black}{The polynomial \( (x- \alpha)(x- \beta)(x- \gamma) \)} is called the resolvant cubic of \(f\). The resolvant cubic is actually a polynomial over \(K\) \cite{hunger}.
+\textcolor{green!50!black}{The cubic polynomial whose roots are \(\alpha,\beta,\gamma \)} is called the resolvant cubic of \(f\) which is a polynomial over \(K\) \cite{hunger}.
 \end{definition}
 \vspace{2mm}
 \textbf{\textcolor{blue}{An Application of the Fundamental Theorem}} \\[3mm]
 Let \(V=\{(1),(12)(34),(13)(24),(14)(23)\} \in S_4\).\\
-Now under \textcolor{green!50!black}{the Galois correspondence the subfield \(K(\alpha, \beta, \gamma)\) corresponds to the normal subgroup \(V \cap G\)} \cite{hunger} because \(K(\alpha,\beta,\gamma)\) is a splitting field of the resolvant cubic
-whose Galois group is a subgroup of \(S_3\) and only normal subgroup of \(N\) of \(S_4\) with \(|N| \leq 6\) is \(V\),\\[2mm]
+Now under \textcolor{green!50!black}{the Galois correspondence the subfield \(K(\alpha, \beta, \gamma)\) corresponds to the normal subgroup \(G \cap V\)} \cite{hunger} because \(K(\alpha,\beta,\gamma)\) is a splitting field of the resolvant cubic
+whose Galois group is a subgroup of \(S_3\) and only normal subgroup \(N\) of \(S_4\) with \(|N| \leq 6\) is \(V\),\\[2mm]
 \textcolor{violet}{Hence \(K(\alpha, \beta, \gamma)\) is Galois over \(K\) and \(Aut_K^{K(\alpha, \beta, \gamma)} = G/(G \cap V)\) \cite{hunger}}.
 \end{frame}
 
@@ -353,7 +346,7 @@ If \(p\) is a prime and \(f\) is an irreducible polynomial of \textcolor{violet}
 \subsection{Galois Groups of Multi-variable Poly.}
 \begin{frame}{Galois Group of Multi-variable Polynomials}
   The Galois group of a polynomial in single variable can be generalized to the Galois group of a multi-variable polynomial.\\[3mm]
-If the polynomial is \textcolor{green!50!black}{\(f(x,y)=x+y \in \mathbb{Q}[x,y]\)}. The roots of \(f\) span all over the complex numbers. Hence its \textcolor{magenta}{Galois group is \(\mathbb{C}\)}.
+If the polynomial is \textcolor{green!50!black}{\(f(x,y)=x+y \in \mathbb{Q}[x,y]\)}. The roots of \(f\) span all over the complex numbers. Hence its \textcolor{magenta}{Galois group is a subgroup of  \(S_{|\mathbb{C}|}\)}.
 
 
 \vspace{2mm}
@@ -364,7 +357,7 @@ If the polynomial is \textcolor{green!50!black}{\(f(x,y)=x+y \in \mathbb{Q}[x,y]
                        \end{align}
                        The roots of these simultaneous polynomials are \(\omega, {\omega}^2\). Then the splitting field of this system is \(\mathbb{Q}(\omega)\). Here the automorphisms of \(\mathbb{Q}(\omega)\) are: \\
        \(\omega \longmapsto \omega\) and \hspace{9mm} \(\omega \longmapsto {\omega}^2\).\\
-                       \textcolor{magenta}{Hence the Galois group of this system is \(\{(1), (12)\} \cong {\mathbb{Z}}_2\)}.
+                       \textcolor{magenta}{Hence the Galois group of this system is \(\{(1), (12)\} = S_2\)}.
 \end{tcolorbox}
 \end{frame}
 
@@ -418,7 +411,7 @@ Moreover, \textcolor{green!50!black}{polynomials of degree \(n \geq 5\) are not 
 
   \vspace{7mm}
    \begin{tcolorbox}[colback=white, colframe=brown!80!black, boxsep=3mm, title={\bfseries \color{white} Example}]
-  The polynomial is \(x^5-1 \in \mathbb{Q}[x]\).\\
+  The polynomial is \textcolor{green!50!black}{\(x^5-1 \in \mathbb{Q}[x]\)}.\\
   The set of  roots of this polynomial are the fifth roots of unity which forms a group under addition modulo \(5\). Hence the \textcolor{violet}{Galois group is isomorphic to \(\mathbb{Z}_5\)} \cite{hunger}. The group \(\mathbb{Z}_5\) is cyclic and ``every cyclic group is solvable'' \cite{galois}. Hence this polynomial is solvable by radicals.
 \end{tcolorbox}
 
@@ -432,9 +425,9 @@ Moreover, \textcolor{green!50!black}{polynomials of degree \(n \geq 5\) are not 
 \end{theorem}
 
 \vspace{5mm}
- \begin{tcolorbox}[colback=white, colframe=brown!80!black, boxsep=1mm, title={\bfseries \color{white} Example}]
-The polynomial is \(f(x)=x^{12}-x^{10}+x^8-x^6-x^2+1 \in \mathbb{Q}[x]\) \cite{galois}\\
-which is a 58th-cyclotomic polynomial i.e this polynomial \(f(x)={\Phi}_{58}\).\\
+ \begin{tcolorbox}[colback=white, colframe=brown!80!black, boxsep=2mm, title={\bfseries \color{white} Example}]
+The polynomial is \textcolor{green!50!black}{\(f(x)=x^{12}-x^{10}+x^8-x^6-x^2+1 \in \mathbb{Q}[x]\)} \\
+which is a 58th-cyclotomic polynomial \cite{galois} i.e this polynomial \(f(x)={\Phi}_{58}\).\\
 So its \textcolor{violet}{Galois group is \(\mathbb{Z}_{58}\)}, which is abelian and hence is solvable. Therefore this polynomial \(f(x)\) is solvable by radicals.
 \end{tcolorbox}
 \end{frame}
@@ -572,8 +565,8 @@ Mathematically, \textcolor{violet}{the encoded vector \(x\) is obtained form the
 \end{tikzpicture}
 \end{frame}
 
-\subsection{Decoding Process}
-\begin{frame}{Syndrome Decoding}
+\subsection{Correcting Process}
+\begin{frame}{Syndrome Correcting}
   \begin{definition}[Syndrome of a code]
   The syndrome of a vector \(y \in V\) is defined as \\ \(syn(y)=\begin{pmatrix}
     y.h_1\\
@@ -584,12 +577,12 @@ Mathematically, \textcolor{violet}{the encoded vector \(x\) is obtained form the
     h_1 \\ h_2\\ ...\\ h_{n-k}
   \end{pmatrix}\) is the \textcolor{violet}{parity check matrix} of \(C\). {\footnotesize A generator matrix \(H\) of the dual code \(C^{\perp}\) of the code \(C\) called a parity check matrix \cite{error_correct}}.
  \end{definition}
- \begin{tcolorbox}[colback=white, colframe=brown!80!black, boxsep=0mm, title={Decoding Process}]
+ \begin{tcolorbox}[colback=white, colframe=brown!80!black, boxsep=0mm, title={Correcting Process}]
  Suppose the signal received is the vector \(y\).
 \begin{enumerate}
 \item First we determine its syndrome, \(syn(y)\).
 \item Determine the co-set of \(C\) containing \(syn(y)\), say \(e + C\).
-\item Then \(y=e+x\) for some \(x \in C\). This implies \(x=y-e\). Since \(x \in C\), this \(x\) is the required decoding of \(y\) \cite{error_correct}.
+\item Then \(y=e+x\) for some \(x \in C\). This implies \(x=y-e\). Since \(x \in C\), this \(x\) is the required correction of \(y\) \cite{error_correct}.
 \end{enumerate}
 \end{tcolorbox}
 \textcolor{violet}{This \(e\) is also called "error vector" \cite{error_correct}.}
@@ -733,6 +726,15 @@ This is the step where the encrypted data gets uniqueness. \textcolor{violet}{Ea
 
 \item The decryption process is applying the inverse of the encryption process \cite{aes}.
 \end{enumerate}
+\end{frame}
+
+\begin{frame}{Conclusion of my Research}
+  \begin{enumerate}
+  \item Galois Theory is still a \textcolor{green!50!black}{relevant field of research} today.
+  \item It has found its development as a \textcolor{violet}{linking theory of Field theory and Group Theory}.
+  \item It has found its \textcolor{violet}{applications in both pure and applied mathematics}; where-ever ``Field Theory'' has anything to do with.
+    \item Many concepts of Abstract algebra, Algebraic number theory, Algebraic geometry, etc rely heavily on Galois theory because they are developed on field extensions, and the \textcolor{green!50!black}{computer science relies heavily on Galois field}.
+  \end{enumerate}
 \end{frame}
 % ------------------------------------------------------------------------------------------------------------------
 

@@ -84,10 +84,10 @@
 \headcommand {\slideentry {5}{1}{3}{25/25}{Error Correcting Codes}{0}}
 \headcommand {\beamer@framepages {25}{25}}
 \headcommand {\beamer@subsectionpages {23}{25}}
-\headcommand {\beamer@subsectionentry {0}{5}{2}{26}{Decoding Process}}
-\headcommand {\slideentry {5}{2}{1}{26/26}{Decoding Process}{0}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{26}{Correcting Process}}
+\headcommand {\slideentry {5}{2}{1}{26/26}{Correcting Process}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\slideentry {5}{2}{2}{27/27}{Decoding Process}{0}}
+\headcommand {\slideentry {5}{2}{2}{27/27}{Correcting Process}{0}}
 \headcommand {\beamer@framepages {27}{27}}
 \headcommand {\beamer@subsectionpages {26}{27}}
 \headcommand {\beamer@subsectionentry {0}{5}{3}{28}{Usages}}
@@ -110,19 +110,21 @@
 \headcommand {\beamer@framepages {33}{33}}
 \headcommand {\slideentry {6}{1}{3}{33/34}{Advance Encryption Standard}{0}}
 \headcommand {\beamer@framepages {33}{34}}
-\headcommand {\beamer@sectionpages {29}{34}}
-\headcommand {\beamer@subsectionpages {29}{34}}
-\headcommand {\sectionentry {7}{References}{35}{References}{0}}
-\headcommand {\beamer@subsectionpages {35}{34}}
-\headcommand {\beamer@subsectionentry {0}{7}{1}{35}{References}}
-\headcommand {\slideentry {7}{1}{1}{35/35}{References}{0}}
+\headcommand {\slideentry {6}{1}{4}{35/35}{Advance Encryption Standard}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\beamer@subsectionpages {35}{35}}
-\headcommand {\beamer@subsectionentry {0}{7}{2}{36}{Acknowledgments}}
-\headcommand {\slideentry {7}{2}{1}{36/36}{Acknowledgments}{0}}
+\headcommand {\beamer@sectionpages {29}{35}}
+\headcommand {\beamer@subsectionpages {29}{35}}
+\headcommand {\sectionentry {7}{References}{36}{References}{0}}
+\headcommand {\beamer@subsectionpages {36}{35}}
+\headcommand {\beamer@subsectionentry {0}{7}{1}{36}{References}}
+\headcommand {\slideentry {7}{1}{1}{36/36}{References}{0}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\beamer@partpages {1}{36}}
 \headcommand {\beamer@subsectionpages {36}{36}}
-\headcommand {\beamer@sectionpages {35}{36}}
-\headcommand {\beamer@documentpages {36}}
-\headcommand {\gdef \inserttotalframenumber {36}}
+\headcommand {\beamer@subsectionentry {0}{7}{2}{37}{Acknowledgments}}
+\headcommand {\slideentry {7}{2}{1}{37/37}{Acknowledgments}{0}}
+\headcommand {\beamer@framepages {37}{37}}
+\headcommand {\beamer@partpages {1}{37}}
+\headcommand {\beamer@subsectionpages {37}{37}}
+\headcommand {\beamer@sectionpages {36}{37}}
+\headcommand {\beamer@documentpages {37}}
+\headcommand {\gdef \inserttotalframenumber {37}}
