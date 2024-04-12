@@ -1,16 +1,22 @@
-\beamer@sectionintoc {1}{Galois Theory}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Galois Correspondence}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Splitting Field}{8}{0}{1}
-\beamer@sectionintoc {2}{Application to Galois Groups}{10}{0}{2}
-\beamer@subsectionintoc {2}{1}{Galois Group}{10}{0}{2}
+\beamer@sectionintoc {1}{Galois Theory}{4}{0}{1}
+\beamer@subsectionintoc {1}{1}{Galois Correspondence}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Structure of Galois Extension}{9}{0}{1}
+\beamer@sectionintoc {2}{Application to Galois Groups}{11}{0}{2}
+\beamer@subsectionintoc {2}{1}{Application to Galois Group}{11}{0}{2}
 \beamer@subsectionintoc {2}{2}{Determination of Galois Groups}{14}{0}{2}
 \beamer@subsectionintoc {2}{3}{Galois Groups of Multi-variable Poly.}{16}{0}{2}
 \beamer@sectionintoc {3}{Application to the Classic Problem}{17}{0}{3}
 \beamer@subsectionintoc {3}{1}{Radical Extension}{17}{0}{3}
-\beamer@subsectionintoc {3}{2}{Illustrations}{19}{0}{3}
+\beamer@subsectionintoc {3}{2}{Outcomes}{18}{0}{3}
+\beamer@subsectionintoc {3}{3}{Illustrations}{19}{0}{3}
 \beamer@sectionintoc {4}{Galois Field}{21}{0}{4}
 \beamer@subsectionintoc {4}{1}{Representation of Galois Fields}{21}{0}{4}
 \beamer@sectionintoc {5}{Application to Coding Theory}{23}{0}{5}
 \beamer@subsectionintoc {5}{1}{Error Correcting Codes}{23}{0}{5}
 \beamer@subsectionintoc {5}{2}{Decoding Process}{26}{0}{5}
-\beamer@sectionintoc {6}{Application in Cryptography}{28}{0}{6}
+\beamer@subsectionintoc {5}{3}{Usages}{28}{0}{5}
+\beamer@sectionintoc {6}{Application to Cryptography}{29}{0}{6}
+\beamer@subsectionintoc {6}{1}{Advance Encryption Standard}{29}{0}{6}
+\beamer@sectionintoc {7}{References}{35}{0}{7}
+\beamer@subsectionintoc {7}{1}{References}{35}{0}{7}
+\beamer@subsectionintoc {7}{2}{Acknowledgments}{36}{0}{7}

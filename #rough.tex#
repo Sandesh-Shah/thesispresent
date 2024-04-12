@@ -1,0 +1,17 @@
+\begin{frame}{Galois Groups of Cubic}
+\begin{definition}[Discriminant of a Polynomial]
+  Let \(f \in K[x]\) a polynomial of degree \(n\) with \(n\) distinct roots \(u_1,u_2,...,u_n\) in some splitting field \(F\) of \(f\) over \(K\). Let \\
+  \(\Delta = \prod\limits_{i<j}(u_i-u_j) = (u_1-u_2)(u_1-u_3)...(u_{n-1}-u_n) \in F\).\\
+  The discriminant of \(f\) is the element \(D= {\Delta}^2\) \cite{hunger}.
+\end{definition}
+\vspace{5mm}
+
+\begin{theorem}[Theorem]
+  If \(f\) is a separable polynomial of degree \(3\), then the Galois group of \(f\) is \(A_3\) if and only if the discriminant of \(f\) is the square of an element of \(K\) \cite{hunger}.
+\end{theorem}
+\end{frame}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "<none>"
+%%% End:

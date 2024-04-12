@@ -12,6 +12,7 @@
 \usepackage[most]{tcolorbox}
 
 \setbeamertemplate{bibliography item}[text]
+\setcounter{tocdepth}{1}
 
 % THEMES Options
 % --------------------------------------------------------------------------------------
@@ -31,7 +32,7 @@
 \setbeamercolor{title in head/foot}{bg=red!75!black}
 \setbeamercolor{page number in head/foot}{bg=blue, fg=white}
 
-\setbeamercolor{background canvas}{bg=gray!10}
+%\setbeamercolor{background canvas}{bg=gray!10}
 
 % Frametitle
 % ---------------------------------------------------------------------------------------
@@ -169,15 +170,15 @@
       right of=author,
       xshift=25mm,
       yshift=-3mm,
-      inner xsep=0pt,
-      inner ysep=-5pt,
+      inner xsep=-1pt,
+      inner ysep=-1pt,
       draw=brown!80!black,
       shade,
       inner color=blue!30,
       ellipse,
       ultra thick
       ]
-      (pic) {\includegraphics[height=24mm, width=19mm]{mypicrm2.png}};
+      (pic) {\includegraphics[height=23mm, width=19mm]{mypicrm2.png}};
 
       \node[
       below of=supervisor,
@@ -200,7 +201,7 @@
 
 \makeatletter
 \setbeamertemplate{theorem begin}{%
-  \begin{tcolorbox}[colframe=gray!10, boxsep=-1pt, title={\textcolor{blue}{
+  \begin{tcolorbox}[colframe=white, colback=white, boxsep=-1pt, title={\textcolor{blue}{
         {%
           {\bfseries \inserttheoremnumber.
           \ifx\inserttheoremaddition\@empty\else\ \inserttheoremaddition\fi%
