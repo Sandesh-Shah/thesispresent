@@ -33,8 +33,7 @@
   \caption{\footnotesize Portrait of Galois}
 \end{figure}
 
-In my thesis, I have \textcolor{violet}{explored the applications} of Galois Theory in both pure and applied mathematics. Modern Galois Theory is the theory of field extension. \\
-\textcolor{green!50!black}{The foundation of this theory was laid by the French Mathematician \textit{Évariste Galois} in the 1800s who had died at the early age of 20.}
+In my thesis, I have \textcolor{violet}{explored the applications} of Galois Theory in both pure and applied mathematics. Modern Galois Theory is the theory of field extension whose \textcolor{green!50!black}{foundation was laid by the French Mathematician \textit{Évariste Galois} in the 1800s who had died at the early age of 20.}
 \end{frame}
 
 \begin{frame}[plain]
@@ -268,34 +267,33 @@ The structure of a field is a \textcolor{green!50!black}{complicated} thing; spe
 %----------------------------------------------------------------------------------------------------------------------------------------
 \section{Application to Galois Groups}
 
-\subsection{Application to Galois Group}
-\begin{frame}{Galois Group}
+\subsection{Application to Galois Groups}
+\begin{frame}{Application to Galois Groups}
   \begin{definition}[Galois Group]
     The Galois group of a polynomial \(f \in K[x]\) is the group \(Aut_K^F\), where \(F\) is a splitting field of \(f\) over \(K\) \cite{hunger}.
   \end{definition}
 
 \vspace{2mm}
-  \begin{tcolorbox}[colback=white, colframe=blue!40, boxsep=1mm]
+  \begin{tcolorbox}[colback=white, colframe=blue!40, boxsep=2mm]
     \begin{theorem}[Characterization of Galois Groups]
       Let \(G\) be a Galois group of a polynomial \(f \in K[x]\) of degree \(n\).
-      \begin{enumerate}
-      \item[i)] \(G\) is  a subgroup of symmetric group \(S_n\).
-      \item[ii)] If \(f\) is separable, then \(G\) isomorphic to a transitive subgroup of \(S_n\) \cite{hunger}.
-      \end{enumerate}
+      \begin{itemize}
+      \item \(G\) is  a subgroup of symmetric group \(S_n\) \cite{hunger}.
+      \end{itemize}
     \end{theorem}
   \end{tcolorbox}
   \vspace{3mm}
 \textcolor{green!50!black}{So, galois group of a quartic is a subgroup of \(S_4\).}
 \end{frame}
 
-\begin{frame}{Galois Group of Quartic}
+\begin{frame}{Galois Group of Quartics}
   \begin{definition}[Resolvant Cubic of a Quartic]
 Let \(u_1,u_2,...,u_4\) be the roots of a quartic \(f \in K[x]\) and\\ \(\alpha=u_1u_2+u_3u_4,\) \(\beta=u_1u_3+u_2u_4,\) \(\gamma=u_1u_4+u_2u_3\). \\[3mm]
 \textcolor{green!50!black}{The cubic polynomial whose roots are \(\alpha,\beta,\gamma \)} is called the resolvant cubic of \(f\) which is a polynomial over \(K\) \cite{hunger}.
 \end{definition}
 \vspace{2mm}
 \textbf{\textcolor{blue}{An Application of the Fundamental Theorem}} \\[3mm]
-Let \(V=\{(1),(12)(34),(13)(24),(14)(23)\} \in S_4\).\\
+Let \(V=\{(1),(12)(34),(13)(24),(14)(23)\} \in S_4\).\\[2mm]
 Now under \textcolor{green!50!black}{the Galois correspondence the subfield \(K(\alpha, \beta, \gamma)\) corresponds to the normal subgroup \(G \cap V\)} \cite{hunger} because \(K(\alpha,\beta,\gamma)\) is a splitting field of the resolvant cubic
 whose Galois group is a subgroup of \(S_3\) and only normal subgroup \(N\) of \(S_4\) with \(|N| \leq 6\) is \(V\),\\[2mm]
 \textcolor{violet}{Hence \(K(\alpha, \beta, \gamma)\) is Galois over \(K\) and \(Aut_K^{K(\alpha, \beta, \gamma)} = G/(G \cap V)\) \cite{hunger}}.
@@ -462,14 +460,16 @@ Let the Galois field be \(GF(p^n)\). Since the elements of a Galois field can be
 \section{Application to Coding Theory}
 \subsection{Error Correcting Codes}
 \begin{frame}{Coding Theory}
-  Any information gets deteriorated or lost over time.
-
+\textcolor{violet}{The loss of information is inevitable.} It cannot be prevented or stopped.
 \begin{enumerate}
+
 \item Paintings gets deteriorated over time and has to be renovated.
-\item Some of the words spoken by teacher in the class is missed due to noise \cite{coding}.
+\item The data stored in a CD is lost over time. \cite{coding}.
 \end{enumerate}
 \vspace{3mm}
-\textcolor{violet}{The loss of information is inevitable.}
+
+So, we need a way of retrieving the loss information or correcting the false information.
+
 \begin{itemize}
 \item To be able to over come this issue , i.e \textcolor{green!50!black}{to be able to detect and correct errors during transmission} of information in digital system "coding theory" is developed. In digital system, information are transmitted as strings of \(0\) and \(1\).
 
@@ -728,7 +728,7 @@ This is the step where the encrypted data gets uniqueness. \textcolor{violet}{Ea
 \end{enumerate}
 \end{frame}
 
-\begin{frame}{Conclusion of my Research}
+\begin{frame}{Conclusions of my Research}
   \begin{enumerate}
   \item Galois Theory is still a \textcolor{green!50!black}{relevant field of research} today.
   \item It has found its development as a \textcolor{violet}{linking theory of Field theory and Group Theory}.

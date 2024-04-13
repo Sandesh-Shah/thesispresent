@@ -2,7 +2,7 @@
 \beamer@subsectionintoc {1}{1}{Galois Correspondence}{4}{0}{1}
 \beamer@subsectionintoc {1}{2}{Structure of Galois Extension}{9}{0}{1}
 \beamer@sectionintoc {2}{Application to Galois Groups}{11}{0}{2}
-\beamer@subsectionintoc {2}{1}{Application to Galois Group}{11}{0}{2}
+\beamer@subsectionintoc {2}{1}{Application to Galois Groups}{11}{0}{2}
 \beamer@subsectionintoc {2}{2}{Determination of Galois Groups}{14}{0}{2}
 \beamer@subsectionintoc {2}{3}{Galois Groups of Multi-variable Poly.}{16}{0}{2}
 \beamer@sectionintoc {3}{Application to the Classic Problem}{17}{0}{3}
