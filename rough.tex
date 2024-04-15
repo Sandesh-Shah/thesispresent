@@ -11,6 +11,49 @@
 \end{theorem}
 \end{frame}
 
+\begin{frame}{Galois Group of Quartics}
+  \begin{definition}[Resolvant Cubic of a Quartic]
+Let \(u_1,u_2,...,u_4\) be the roots of a quartic \(f \in K[x]\) and\\ \(\alpha=u_1u_2+u_3u_4,\) \(\beta=u_1u_3+u_2u_4,\) \(\gamma=u_1u_4+u_2u_3\). \\[3mm]
+\textcolor{green!50!black}{The cubic polynomial whose roots are \(\alpha,\beta,\gamma \)} is called the resolvant cubic of \(f\) which is a polynomial over \(K\) \cite{hunger}.
+\end{definition}
+\vspace{2mm}
+\textbf{\textcolor{blue}{An Application of the Fundamental Theorem}} \\[3mm]
+Let \(V=\{(1),(12)(34),(13)(24),(14)(23)\} \in S_4\).\\[2mm]
+Now under \textcolor{green!50!black}{the Galois correspondence the subfield \(K(\alpha, \beta, \gamma)\) corresponds to the normal subgroup \(G \cap V\)} \cite{hunger} because \(K(\alpha,\beta,\gamma)\) is a splitting field of the resolvant cubic
+whose Galois group is a subgroup of \(S_3\) and only normal subgroup \(N\) of \(S_4\) with \(|N| \leq 6\) is \(V\),\\[2mm]
+\textcolor{violet}{Hence \(K(\alpha, \beta, \gamma)\) is Galois over \(K\) and \(Aut_K^{K(\alpha, \beta, \gamma)} = G/(G \cap V)\) \cite{hunger}}.
+\end{frame}
+
+\begin{frame}
+  \begin{tcolorbox}[colback=white, colframe=blue!40, boxsep=0mm]
+\begin{theorem}[Theorem]
+  Let \(K\) be a field and \(f \in K[x]\) a separable quartic with Galois Group \(G\). Let \(\alpha, \beta, \gamma\) be the roots of the resolvant cubic of \(f\) and let\\
+  \textcolor{magenta}{\(m= [K(\alpha, \beta, \gamma) : K]\)} then,
+\begin{enumerate}
+\item[i)] \(m=6 \Longleftrightarrow G=S_4\);
+\item[ii)] \(m=3 \Longleftrightarrow G=A_4\);
+\item[iii)] \(m=1 \Longleftrightarrow G=V\);
+\item[iv)] \(m=2 \Longleftrightarrow G=D_4\) or \(G={\mathbb{Z}}_4\); in this case \(G={\mathbb{Z}}_4\) if \(f\) is irreducible over \(K(\alpha, \beta, \gamma)\) and \(G={\mathbb{Z}}_4\) otherwise\cite{hunger}.
+\end{enumerate}
+\end{theorem}
+\end{tcolorbox}
+\vspace{2mm}
+
+\begin{theorem}[Theorem]
+If \(p\) is a prime and \(f\) is an irreducible polynomial of \textcolor{violet}{degree \(p\)} over \(\mathbb{Q}\) which has precisely \textcolor{violet}{two non-real roots}, then the Galois group of \(f\) is \textcolor{violet}{\(S_p\)} \cite{hunger}.
+\end{theorem}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Illustrations}
+  Galois theory gives the precise condition under which a polynomial of degree \(n \geq 5\) is solvable by radicals or not.
+
+  \vspace{7mm}
+   \begin{tcolorbox}[colback=white, colframe=brown!80!black, boxsep=3mm, title={\bfseries \color{white} Example}]
+  The polynomial is \textcolor{green!50!black}{\(x^5-1 \in \mathbb{Q}[x]\)}.\\
+  The set of  roots of this polynomial are the fifth roots of unity which forms a group under addition modulo \(5\). Hence the \textcolor{violet}{Galois group is isomorphic to \(\mathbb{Z}_5\)} \cite{hunger}. The group \(\mathbb{Z}_5\) is cyclic and ``every cyclic group is solvable'' \cite{galois}. Hence this polynomial is solvable by radicals.
+\end{tcolorbox}
+
+
 %%% Local Variables:
 %%% mode: latex
 %%% TeX-master: "<none>"
