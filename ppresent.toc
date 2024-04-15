@@ -1,6 +1,5 @@
 \beamer@sectionintoc {1}{Galois Theory}{4}{0}{1}
 \beamer@subsectionintoc {1}{1}{Galois Correspondence}{4}{0}{1}
-\beamer@subsectionintoc {1}{2}{Splitting Field}{7}{0}{1}
 \beamer@sectionintoc {2}{Application to Galois Groups}{8}{0}{2}
 \beamer@subsectionintoc {2}{1}{Application to Galois Groups}{8}{0}{2}
 \beamer@subsectionintoc {2}{2}{Determination of Galois Groups}{10}{0}{2}
