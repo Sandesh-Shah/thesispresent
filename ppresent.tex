@@ -127,8 +127,8 @@ In my thesis, I have \textcolor{violet}{explored the applications} of Galois The
 \end{frame}
 
 \begin{frame}[plain]
-  \LARGE \centering
-  Applicatons
+  \LARGE \centering \bfseries
+  Applications
   \end{frame}
 
 
@@ -199,11 +199,11 @@ If \(p\) is a prime and \(f\) is an irreducible polynomial of \textcolor{violet}
 
 \subsection{Galois Groups of Multi-variable Poly.}
 \begin{frame}{Galois Group of Multi-variable Polynomials}
-  The Galois group of a polynomial in single variable can be generalized to the Galois group of a multi-variable polynomial.\\[3mm]
-If the polynomial is \textcolor{green!50!black}{\(f(x,y)=x+y \in \mathbb{Q}[x,y]\)}. The roots of \(f\) span all over the complex numbers. Hence its \textcolor{magenta}{Galois group is a subgroup of  \(S_{|\mathbb{C}|}\)}.
+  The Galois group of a polynomial in single variable can be generalized to the Galois group of a multi-variable polynomial.
 
 
-\vspace{2mm}
+
+\vspace{7mm}
  \begin{tcolorbox}[colback=white, colframe=brown!80!black, boxsep=1mm, title={\bfseries \color{white} Example}]
   The polynomials in \(\mathbb{Q}[x,y]\) are: \begin{align}
                          y &= x^2+1 \\
@@ -233,7 +233,7 @@ If the polynomial is \textcolor{green!50!black}{\(f(x,y)=x+y \in \mathbb{Q}[x,y]
   An extension field \(F\) of a field \(K\) is a radical extension of \(K\) if \(F=K(u_1,...,u_n)\), some power of \(u_1\) lies in \(K\) and for each \(i \geq 2\), some power of \(u_i\) lies in \(K(u_1,...,u_{i-1})\) \cite{hunger}.
 \end{definition}
 \vspace{4mm}
-\textcolor{green!50!black}{The equation \(f(x)=0\) is \textit{solvable by radicals} if there exists a radical extension} \(F\) of \(K\) and splitting field \(E\) of \(f\) over \(K\) such that \(F \supset E \supset K\) \cite{hunger}.
+\textcolor{green!50!black}{The polynomial equation \(f(x)=0\) is \textit{solvable by radicals} if there exists a radical extension} \(F\) of \(K\) and splitting field \(E\) of \(f\) over \(K\) such that \(F \supset E \supset K\) \cite{hunger}.
 \end{frame}
 
 \subsection{Outcomes}
@@ -244,7 +244,7 @@ If \(F\) is a radical extension of \(K\) then \(Aut_K^F\) is a solvable group \c
 \end{theorem}
 
 \begin{corollary}[Corollary]
-If the equation \(f(x)=0\) is solvable by radicals, then the Galois group of \(f\) is a solvable group \cite{hunger}.
+If the equation \(f(x)=0\) is solvable by radicals, then the Galois group of \(f\) is a \textcolor{green!50!black}{solvable group} \cite{hunger}.
 \end{corollary}
 
 \begin{theorem}[Theorem]
@@ -252,9 +252,8 @@ The symmetric group \(S_n\) is not solvable for \(n \geq 5\) \cite{hunger}.
 \end{theorem}
 
   \begin{tcolorbox}[colback=white, colframe=red, boxsep=1mm, title={\bfseries \color{white} Outcomes}]
-  The polynomial \(f(x)=x^5-10x+5 \in \mathbb{Q}[x]\) has Galois group ``\(S_5\), which is not a solvable group'' \cite{hunger}. \\
-The quantic polynomials over \(\mathbb{Q}\) are not solvable by radicals. That is there does not exist an explicit formula for solving the quantics. \\
-Moreover, \textcolor{green!50!black}{polynomials of degree \(n \geq 5\) are not solvable by radicals} \cite{hunger}.
+  The polynomial \(f(x)=x^5-10x+5 \in \mathbb{Q}[x]\) has Galois group ``\(S_5\), which is not a solvable group'' \cite{hunger}. \\[1mm]
+So, there does not exist an explicit formula for solving the quantics over \(\mathbb{Q}\). Moreover, \textcolor{green!50!black}{polynomial equations of degree \(n \geq 5\) are not solvable by radicals} \cite{hunger}.
 \end{tcolorbox}
 
 \end{frame}
@@ -320,9 +319,10 @@ So, we need a way of retrieving the loss information or correcting the false inf
 \vspace{2mm}
 
 \begin{itemize}
-\item  \textcolor{green!50!black}{To be able to detect and correct errors during transmission} of information in digital system "coding theory" is developed. In digital system, information are transmitted as strings of \(0\) and \(1\).
+\item  \textcolor{green!50!black}{To be able to detect and correct errors during transmission} of information in digital system "coding theory" is developed.
+  \vspace{1mm}
 
-\item So \textcolor{green!50!black}{the fundamental of the coding theory in digital system is the manipulation of strings of binary digits}. The proper and complete manipulation of these strings is possibly only if the space of the \\
+\item \textcolor{green!50!black}{The fundamental of the coding theory in digital system is the manipulation of strings of binary digits}. The proper and complete manipulation of these strings is possibly only if the space of the \\
   strings is a field. This field is finite which is a \textbf{Galois field}.
   \end{itemize}
 \end{frame}
@@ -531,7 +531,7 @@ This is the step where the encrypted data gets uniqueness. \textcolor{violet}{Ea
 \end{frame}
 
 \begin{frame}[allowframebreaks]{Illustration}
-  Let us encrypt the sentence \textcolor{violet}{Fun Cryptography}. This consists of exactly 16 characters.\vspace{2mm}
+  Let us encrypt the sentence \textcolor{violet}{``Fun Cryptography''}. This consists of exactly 16 characters.\vspace{2mm}
 
 \begin{enumerate}
 \item First we write the ASCII representation of each character of the sentence as shown below. We do so because the ASCII representation gives the binary representation of each character which has a size of a byte. \textcolor{violet}{The ASCII representation of "F" is \(70\) which is \(01000110\) in binary}.\vspace{2mm}
@@ -630,7 +630,7 @@ I would like thank  Mr. \textcolor{green!50!black}{Santosh Gnawali} for providin
 \\[4mm]
 \begin{center}
   \large \bfseries \color{magenta}
-  Thank You
+  And Thank You all.
   \end{center}
 \begin{minipage}{1\textwidth}
 	\begin{flushright}
@@ -641,117 +641,7 @@ I would like thank  Mr. \textcolor{green!50!black}{Santosh Gnawali} for providin
       \end{minipage}
     \end{frame}
     % ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    \begin{frame}
-      \Large
-      \begin{center}
-        Insights to the Fundamental Theorem
-        \end{center}
-    \end{frame}
-    \begin{frame}{Nature of Number}
-  \textcolor{magenta}{The nature of a number depends upon the underlying field.}\\
-  \(\sigma: \{a + b\sqrt{2}\} \mapsto \{a - b\sqrt{2}\} \) denoted by \(\sqrt{2} \longmapsto -\sqrt{2}\) is an automorphism of the field \(\mathbb{Q}(\sqrt{2})\) that fixes \(\mathbb{Q}\). So,  any polynomial equation over \(\mathbb{Q}\) satisfied by the number \(\sqrt{2}\) is also satisfied by the number \(-\sqrt{2}\). You can fluidly pass between these two numbers and the equation with a rational coefficient will not know. \textcolor{green!50!black}{Hence the two numbers \(\sqrt{2}\) and \(-\sqrt{2}\) are algebraically same over \(\mathbb{Q}\).}\\[4mm]
 
-But the map \(\sqrt{2} \longmapsto -\sqrt{2}\) does not fix  \(\mathbb{Q}(\sqrt{2})\) i.e doesn't fix itself. So, you cannot pass \(\sqrt{2}\) for \(-\sqrt{2}\) for every equation with coefficients in \(\mathbb{Q}(\sqrt{2})\). \textcolor{green!50!black}{Hence the two numbers \(\sqrt{2}\) and \(-\sqrt{2}\) are not algebraically same over \(\mathbb{Q}(\sqrt{2})\).}
-\vspace{2mm}
-
-\begin{figure}[h]
-  \centering
- \begin{tikzpicture}
-      \node (f) {\(\mathbb{Q}(\sqrt{2})\)};
-      \node[below of=f, yshift=-11mm] (e) {\(\mathbb{Q}\)};
-
-
-      \draw[<-,thick] (f)--(e);
-
-      \node[right of=f, xshift=40mm] (i) {\{e\}};
-      \node[below of=i, yshift=-11mm] (h) {\{\(i\), \(\sqrt{2} \mapsto -\sqrt{2}\)\}};
-
-
-      \draw[->, thick] (i)--(h);
-
-
-      \draw[<->, thick] (f)--(i);
-      \draw[<->, thick] (e)--(h);
-    \end{tikzpicture}
-  \end{figure}
-\end{frame}
-
-\begin{frame}{Structure of a Field}
-  The structure of a field as an extension field over some field is mirrored in the structure of the ``group'' of  permutations of its elements that keeps the base field fixed. But these permutations are the symmetries of the field. \textcolor{magenta}{So, the structure of a field extension equals to structure of its own symmetry.}\\[2mm]
-
-The structure of a field is a \textcolor{green!50!black}{complicated} thing; specially if it is infinite. But the structure of a group is rather \textcolor{green!50!black}{simple}; especially if it is finite. So the Galois theory has fairly simplified the complicated thing in a very insightful and beautiful way.
-
-\vspace{3mm}
-\begin{figure}[h]
-  \centering
-  \begin{tikzpicture}
-
-    \node[rectangle, thick, draw,
-    minimum height=3.5cm,
-    minimum width=2.3cm] (rec) at (0,0) {};
-
-    \node[rectangle, thick, draw,
-    minimum height=3.5cm,
-    minimum width=2.3cm] (rec2) at (6,0) {};
-
-
-    \node[minimum width=7mm,
-      minimum height=5mm,
-      fill=gray!40,
-      ] (ss) at (0,2.1) {Structure of a field \(F\)};
-
-      \node[minimum width=7mm,
-      minimum height=5mm,
-      fill=gray!40,
-      ] (ss2) at (6,2.1) {Structure of its symmetry};
-
-      \draw[<->, thick] (ss)--(ss2);
-       \draw[<->, thick] (rec)--(rec2);
-
-      \node[minimum width=7mm,
-      minimum height=5mm,
-      fill=gray!40] (f) at (0,1.25) {\large F};
-
-      \node[minimum width=7mm,
-      minimum height=5mm,
-      fill=gray!40,
-      below of=f, yshift=-3mm] (e) {\large E};
-
-      \node[right of=e,
-      xshift=20mm, yshift=3mm] (txt) {\textcolor{magenta}{Equivalent}};
-
-      \node[minimum width=7mm,
-      minimum height=5mm,
-      fill=gray!40,
-      below of=e, yshift=-3mm] (k) {\large K};
-
-      \draw[<-,thick] (f)--(e);
-      \draw[<-,thick] (e)--(k);
-
-      \node[right of=f,
-      xshift=5cm,
-      minimum width=7mm,
-      minimum height=5mm,
-      fill=gray!40,
-      ] (i) {\large \{e\}};
-
-      \node[minimum width=7mm,
-      minimum height=5mm,
-      fill=gray!40,
-      below of=i, yshift=-3mm] (h) {\large H};
-
-      \node[
-      minimum width=7mm,
-      minimum height=5mm,
-      fill=gray!40,
-      below of=h, yshift=-3mm] (g) {\large G};
-
-      \draw[->, thick] (i)--(h);
-      \draw[->, thick] (h)--(g);
-    \end{tikzpicture}
-\end{figure}
-
-  \end{frame}
 \end{document}
 
 
