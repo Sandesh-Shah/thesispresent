@@ -60,7 +60,7 @@ In my thesis, I have \textcolor{violet}{explored the applications} of Galois The
     \end{definition}
     \vspace{4mm}
     \begin{definition}[Galois Extension]
-      The extension field \(F\) of \(K\) is said to be Galois extension if the fixed field of the Galois group \(Aut_K^F\) is \(K\) itself.
+      The extension field \(F\) of \(K\) is said to be Galois extension if the fixed field of the Galois group \(Aut_K^F\) is \(K\) itself \cite{hunger}.
     \end{definition}
   \end{tcolorbox}
 \end{frame}
@@ -164,7 +164,7 @@ In my thesis, I have \textcolor{violet}{explored the applications} of Galois The
 \begin{frame}{Galois Groups}
 
   The Galois group of polynomials upto degree 4 are \textcolor{violet}{easily computeable}\\
-  but there are no general rules to compute it for the polynomials of degree 5 or above.
+  but there are no general rules to compute it for the polynomials of degree 5 or above \cite{hunger}.
   \vspace{10mm}
 
   \begin{tcolorbox}[colback=white, colframe=blue!40, boxsep=2mm]
@@ -287,9 +287,9 @@ So its \textcolor{violet}{Galois group is \(\mathbb{Z}_{58}\)}, which is abelian
 \(GF(p^n)=\{0,1,...,p-1\} \cup \{p,p+1,...,p+p-1\} \cup ... \cup \{p^{n-1},p^{n-1}+1,...,p^{n-1}+p^{n-2}+...+p-1\}\) \cite{galois}.
 \vspace{5mm}
 
-\begin{example}[Example]
+\begin{example}[Examples]
   \begin{align*}
-    GF(2) &= \{0,1\}\\
+    GF(2) &= \{0,1\} \hspace{3mm} \textcolor{green!50!black}{(Binary \;\; Fields)}\\
     GF(2^3) &= \{0,1\} \cup \{2,2+1\} \cup \{2^2,2^2+1,2^2+2,2^2+2+1\}\\
             &= \{0,1,2,3,4,5,6,7\}
     \end{align*}
@@ -307,20 +307,20 @@ So its \textcolor{violet}{Galois group is \(\mathbb{Z}_{58}\)}, which is abelian
 \end{enumerate}
 \vspace{3mm}
 
-So, we need a way of retrieving the loss information or correcting the false information.
+So, we need a way of retrieving the lost information or correcting the false information.
 \vspace{2mm}
 
 \begin{itemize}
-\item  \textcolor{green!50!black}{To be able to detect and correct errors during transmission} of information in digital system "coding theory" is developed.
+\item  \textcolor{green!50!black}{To be able to detect and correct errors during transmission} of information in digital system "coding theory" is developed \cite{error_correct}.
   \vspace{1mm}
 
-\item \textcolor{green!50!black}{The fundamental of the coding theory in digital system is the manipulation of strings of binary digits}. The proper and complete manipulation of these strings is possibly only if the space of the \\
+\item \textcolor{green!50!black}{The fundamental of the coding theory in digital system is the manipulation of strings of binary digits} \cite{error_correct}. The proper and complete manipulation of these strings is possibly only if the space of the \\
   strings is a field. This field is finite which is a \textbf{Galois field}.
   \end{itemize}
 \end{frame}
 
 \begin{frame}{Error Correcting Codes}
-  The idea of coding theory is to append some extra digits to the information and use this to detect and possibly correct the errors during transmission.  These codes \textcolor{green!50!black}{that can correct themselves are called} \textcolor{magenta}{Error correcting codes} \cite{coding}.
+  The idea of coding theory is to append some extra digits to the information and use this to detect and possibly correct the errors during transmission. These codes \textcolor{green!50!black}{that can correct themselves are called} \textcolor{magenta}{Error correcting codes} \cite{coding}.
   \vspace{3mm}
 
 
@@ -476,11 +476,11 @@ Suppose we have the parity check matrix is \(H=\begin{pmatrix}
 \section{Application to Cryptography}
 \subsection{Advance Encryption Standard}
 \begin{frame}{Application to Cryptography}
-  Cryptography is the science of \textcolor{violet}{safe-guarding information} by converting the original information into something unreadable. Galois Fields are the life of modern cryptography used in digital communication.
+  Cryptography is the science of \textcolor{violet}{safe-guarding information} by converting the original information into something unreadable \cite{aes}. Galois Fields are the life of modern cryptography used in digital communication.
   \vspace{7mm}
 
   \begin{tcolorbox}[colback=white, colframe=brown!80!black, boxsep=1mm, title={Advance Encryption Standard(AES)}]
-    The Advance Encryption Standard is a Computer Security Standard for cryptography which is approved by the ``Federal Information Processing Standards Publications'' of USA which became \textcolor{violet}{effective on May 26, 2002} which was developed by \textcolor{green!50!black}{two Belgian cryptographers, \textit{(Vincent Rijmen and Joan Daemen)}}
+    The Advance Encryption Standard is a Computer Security Standard for cryptography which is approved by the ``Federal Information Processing Standards Publications'' of USA which became \textcolor{violet}{effective on May 26, 2002} which was developed by \textcolor{green!50!black}{two Belgian cryptographers, \textit{(Vincent Rijmen and Joan Daemen)}} \cite{aes}.
   \end{tcolorbox}
 \end{frame}
 
@@ -489,7 +489,7 @@ Suppose we have the parity check matrix is \(H=\begin{pmatrix}
 \vspace{2mm}
   \begin{enumerate}
   \item \textbf{\textcolor{blue}{The State}}\\
-    First the data is broken into blocks, each of size 16 byte. \textcolor{violet}{Each block is then represented in a \(4 \times 4\) matrix, whose each entry is a byte of the block}. This matrix is called the State.\\
+    First the data is broken into blocks, each of size 16 byte. \textcolor{violet}{Each block is then represented in a \(4 \times 4\) matrix, whose each entry is a byte of the block}. This matrix is called the State \cite{aes}.\\
     Suppose the block is \(b_1, b_2,...,b_{16}\). Then the state is
     \(\left[\begin{smallmatrix}
   b_1 & b_5 &... & ...\\
@@ -520,7 +520,7 @@ If \(A=\begin{bmatrix}
     a_{22}&a_{23}&a_{24}&a_{21}\\
     a_{33}&a_{34}&a_{31}&a_{32}\\
     a_{44}&a_{41}&a_{42}&a_{43}
-  \end{bmatrix}\) \vspace{2mm} \\[3mm] is the matrix after Shit-Row
+  \end{bmatrix}\) \vspace{2mm} \\[3mm] is the matrix after Shit-Row.
 
     \framebreak
 
