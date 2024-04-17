@@ -9,13 +9,13 @@
 \beamer@subsectionintoc {3}{2}{Outcomes}{14}{0}{3}
 \beamer@subsectionintoc {3}{3}{Illustrations}{15}{0}{3}
 \beamer@sectionintoc {4}{Galois Field}{16}{0}{4}
-\beamer@subsectionintoc {4}{1}{Representation of Galois Fields}{16}{0}{4}
-\beamer@sectionintoc {5}{Application to Coding Theory}{18}{0}{5}
-\beamer@subsectionintoc {5}{1}{Error Correcting Codes}{18}{0}{5}
-\beamer@subsectionintoc {5}{2}{Correcting Process}{21}{0}{5}
-\beamer@subsectionintoc {5}{3}{Usages}{23}{0}{5}
-\beamer@sectionintoc {6}{Application to Cryptography}{24}{0}{6}
-\beamer@subsectionintoc {6}{1}{Advance Encryption Standard}{24}{0}{6}
-\beamer@sectionintoc {7}{References}{31}{0}{7}
-\beamer@subsectionintoc {7}{1}{References}{31}{0}{7}
-\beamer@subsectionintoc {7}{2}{Acknowledgments}{32}{0}{7}
+\beamer@subsectionintoc {4}{1}{Galois Fields}{16}{0}{4}
+\beamer@sectionintoc {5}{Application to Coding Theory}{17}{0}{5}
+\beamer@subsectionintoc {5}{1}{Error Correcting Codes}{17}{0}{5}
+\beamer@subsectionintoc {5}{2}{Correcting Process}{20}{0}{5}
+\beamer@subsectionintoc {5}{3}{Usages}{22}{0}{5}
+\beamer@sectionintoc {6}{Application to Cryptography}{23}{0}{6}
+\beamer@subsectionintoc {6}{1}{Advance Encryption Standard}{23}{0}{6}
+\beamer@sectionintoc {7}{References}{30}{0}{7}
+\beamer@subsectionintoc {7}{1}{References}{30}{0}{7}
+\beamer@subsectionintoc {7}{2}{Acknowledgments}{31}{0}{7}

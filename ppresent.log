@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.5)  16 APR 2024 18:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.5)  17 APR 2024 11:45
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -672,12 +672,8 @@ Package: amsthm 2020/05/29 v2.20.6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
 (./mytheme.sty
-
-LaTeX Warning: You have requested package `mytheme',
-               but the package provides `mastersthesis'.
-
-Package: mastersthesis 
-(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+Package: mytheme 
+ (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen284
 \WF@size=\dimen285
 \c@WF@wrappedlines=\count329
@@ -1244,11 +1240,8 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
-ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
-your preamble.
- on input line 21.
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 \c@lstlisting=\count372
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
@@ -1505,7 +1498,7 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 294.
+Package pdftex.def Info: images//tulogo.png  used on input line 297.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1517,7 +1510,7 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 305.
+Package pdftex.def Info: images//tulogo.png  used on input line 320.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1529,7 +1522,7 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 328.
+Package pdftex.def Info: images//tulogo.png  used on input line 335.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1541,7 +1534,7 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 343.
+Package pdftex.def Info: images//tulogo.png  used on input line 408.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1553,7 +1546,7 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 416.
+Package pdftex.def Info: images//tulogo.png  used on input line 432.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1565,7 +1558,7 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 440.
+Package pdftex.def Info: images//tulogo.png  used on input line 450.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1577,7 +1570,7 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 458.
+Package pdftex.def Info: images//tulogo.png  used on input line 474.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1589,7 +1582,7 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 470.
+Package pdftex.def Info: images//tulogo.png  used on input line 485.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1601,7 +1594,7 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 481.
+Package pdftex.def Info: images//tulogo.png  used on input line 535.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1613,7 +1606,7 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 531.
+Package pdftex.def Info: images//tulogo.png  used on input line 535.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1622,10 +1615,11 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 
 [25
 
+
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 531.
+Package pdftex.def Info: images//tulogo.png  used on input line 535.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1638,7 +1632,7 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 531.
+Package pdftex.def Info: images//tulogo.png  used on input line 580.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1647,11 +1641,10 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 
 [27
 
-
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 576.
+Package pdftex.def Info: images//tulogo.png  used on input line 580.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1660,10 +1653,11 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 
 [28
 
+
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 576.
+Package pdftex.def Info: images//tulogo.png  used on input line 589.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1672,11 +1666,10 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 
 [29
 
-
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 585.
+Package pdftex.def Info: images//tulogo.png  used on input line 622.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1688,7 +1681,7 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
 ]
 File: images//tulogo.png Graphic file (type png)
 <use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 618.
+Package pdftex.def Info: images//tulogo.png  used on input line 646.
 (pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
 
 Overfull \hbox (10.9254pt too wide) has occurred while \output is active
@@ -1696,18 +1689,6 @@ Overfull \hbox (10.9254pt too wide) has occurred while \output is active
  []
 
 [31
-
-]
-File: images//tulogo.png Graphic file (type png)
-<use images//tulogo.png>
-Package pdftex.def Info: images//tulogo.png  used on input line 642.
-(pdftex.def)             Requested size: 17.06909pt x 17.06808pt.
-
-Overfull \hbox (10.9254pt too wide) has occurred while \output is active
-[][][][][][] 
- []
-
-[32
 
 ]
 \tf@nav=\write6
@@ -1727,10 +1708,10 @@ Package rerunfilecheck Info: File `ppresent.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 42796 strings out of 480247
- 1032575 string characters out of 5896152
- 1402604 words of memory out of 5000000
- 59844 multiletter control sequences out of 15000+600000
+ 42798 strings out of 480247
+ 1032662 string characters out of 5896152
+ 1405930 words of memory out of 5000000
+ 59848 multiletter control sequences out of 15000+600000
  484908 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,14n,122p,729b,1098s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1749,10 +1730,10 @@ si9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ppresent.pdf (32 pages, 506732 bytes).
+Output written on ppresent.pdf (31 pages, 505433 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 334 compressed objects within 4 object streams
- 93 named destinations out of 1000 (max. 500000)
- 242 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 445 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 

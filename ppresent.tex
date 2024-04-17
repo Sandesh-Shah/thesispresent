@@ -33,7 +33,7 @@
   \caption{\footnotesize Portrait of Galois}
 \end{figure}
 
-In my thesis, I have \textcolor{violet}{explored the applications} of Galois Theory in both pure and applied mathematics. Modern Galois Theory is the theory of field extension whose \textcolor{green!50!black}{foundation was laid by the French Mathematician \textit{Évariste Galois} in the 1800s who had died at the early age of 20.}
+In my thesis, I have \textcolor{violet}{explored the applications} of Galois Theory in both pure and applied mathematics. Modern Galois Theory is the theory of \textcolor{violet}{field extension} whose \textcolor{green!50!black}{foundation was laid by the French Mathematician \textit{Évariste Galois}} in the 1800s who had died at the early age of 20.
 \end{frame}
 
 \begin{frame}[plain]
@@ -55,7 +55,7 @@ In my thesis, I have \textcolor{violet}{explored the applications} of Galois The
 
   \begin{tcolorbox}[colframe=blue!40, colback=white, boxsep=1mm]
     \begin{definition} [Galois Group]
-      The set of all \textcolor{magenta}{automorphisms} of \(F\) that fixes \(K\) element-wise forms a permutation group.\\[2mm]
+      The set of all \textcolor{magenta}{automorphisms} of \(F\) that fixes \(K\) forms a group.\\[2mm]
       This group is called the Galois group of \(F\) over \(K\) and it is denoted by \(Aut_K^F\) \cite{hunger}.
     \end{definition}
     \vspace{4mm}
@@ -240,11 +240,11 @@ If \(p\) is a prime and \(f\) is an irreducible polynomial of \textcolor{violet}
 \begin{frame}{Some Results}
 
   \begin{theorem}[Theorem]
-If \(F\) is a radical extension of \(K\) then \(Aut_K^F\) is a solvable group \cite{hunger}.
+If \(F\) is a radical extension of \(K\) then \(Aut_K^F\) is a \textcolor{violet}{solvable group} \cite{hunger}.
 \end{theorem}
 
 \begin{corollary}[Corollary]
-If the equation \(f(x)=0\) is solvable by radicals, then the Galois group of \(f\) is a \textcolor{green!50!black}{solvable group} \cite{hunger}.
+The polynomial equation solvable by radicals if and only if its Galois group is a \textcolor{green!50!black}{solvable group} \cite{hunger}.
 \end{corollary}
 
 \begin{theorem}[Theorem]
@@ -279,29 +279,21 @@ So its \textcolor{violet}{Galois group is \(\mathbb{Z}_{58}\)}, which is abelian
 \end{frame}
 
 \section{Galois Field}
-\subsection{Representation of Galois Fields}
+\subsection{Galois Fields}
 \begin{frame}{Galois Fields}
-  Galois fields are the finite fields. We denote Galois field with \(q\) elements by \(GF(q)\).\\[4mm]
+  Galois fields are the \textcolor{violet}{finite fields}. We denote Galois field with \(q\) elements by \(GF(q)\).\\[4mm]
 
 \textcolor{red}{\textbf{Integer representation}}\\[2mm]
 \(GF(p^n)=\{0,1,...,p-1\} \cup \{p,p+1,...,p+p-1\} \cup ... \cup \{p^{n-1},p^{n-1}+1,...,p^{n-1}+p^{n-2}+...+p-1\}\) \cite{galois}.
 \vspace{5mm}
 
 \begin{example}[Example]
-    \(GF(2)=\{0,1\}\)\\
-    \(GF(2^3)=\{0,1\} \cup \{2,2+1\} \cup \{2^2,2^2+1,2^2+2,2^2+2+1\}=\{0,1,2,3,4,5,6,7\}\)
+  \begin{align*}
+    GF(2) &= \{0,1\}\\
+    GF(2^3) &= \{0,1\} \cup \{2,2+1\} \cup \{2^2,2^2+1,2^2+2,2^2+2+1\}\\
+            &= \{0,1,2,3,4,5,6,7\}
+    \end{align*}
 \end{example}
-\end{frame}
-
-\begin{frame}{Operations in Galois Field}
-\textcolor{red}{\textbf{Polynomial representation}}\\[2mm]
-If \(F=GF(2^3)\) then \textcolor{green!50!black}{\(f(x)=x^8+x^7+...+x+1 \in F[x]\)} is irreducible in \(F[x]\). Since \(F\) has \(8\) elements which are modulo \(8\), elements of \(F\) is represented by the elements of the factor ring \(F[x]/(f(x))\) \cite{aes}. \\[5mm]
-
-
-In the Example-19, the number \textcolor{green!50!black}{\(5\) has the representation \(2^2+1\). This gives the polynomial representation \(x^2+1=(101)\)}(coefficient of \(x^2\) is \(1\) of \(x\) is \(0\) and of constant is \(1\) ) Now the binary equivalent of \(5\) is \(101\).\\[5mm]
-
-\textcolor{red}{\textbf{Operations in Galois Field}}\\[2mm]
-Let the Galois field be \(GF(p^n)\). Since the elements of a Galois field can be represented as polynomials the \textcolor{violet}{ operations are similar to polynomial operations}.
 \end{frame}
 
 \section{Application to Coding Theory}
@@ -458,6 +450,8 @@ Suppose we have the parity check matrix is \(H=\begin{pmatrix}
 \end{frame}
 \subsection{Usages}
 \begin{frame}{Some Usages}
+  \vspace{3mm}
+
   \begin{enumerate}
   \item The \((3,1)\) binary code is used in the short-range wireless communication system like \textcolor{blue}{\(Bluetooth^{TM}\)} \cite{wireless}.
 
@@ -467,6 +461,16 @@ Suppose we have the parity check matrix is \(H=\begin{pmatrix}
 \vspace{3mm}
   \item The Cyclic codes are used in storing data in \textcolor{green!50!black}{CDs and DVDs} \cite{coding}.
   \end{enumerate}
+  \begin{figure}[h]
+
+    \centering
+    \begin{tikzpicture}
+      \draw [ultra thick, outer color=blue!40, inner color= green!80] (0,0) circle [radius=1.3];
+      \draw[thick, fill=gray] (0,0) circle [radius=0.4];
+      \draw[thick, fill=white] (0,0) circle [radius=0.2];
+    \end{tikzpicture}
+    \caption{\footnotesize A CD}
+    \end{figure}
 \end{frame}
 
 \section{Application to Cryptography}
