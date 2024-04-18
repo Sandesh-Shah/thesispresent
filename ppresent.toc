@@ -18,4 +18,4 @@
 \beamer@subsectionintoc {6}{1}{Advance Encryption Standard}{23}{0}{6}
 \beamer@sectionintoc {7}{References}{30}{0}{7}
 \beamer@subsectionintoc {7}{1}{References}{30}{0}{7}
-\beamer@subsectionintoc {7}{2}{Acknowledgments}{31}{0}{7}
+\beamer@subsectionintoc {7}{2}{Acknogwledgments}{31}{0}{7}
