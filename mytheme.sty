@@ -122,7 +122,7 @@
       above of= title,
       shade,
       left color= cyan!85!,
-      yshift=2mm,
+      yshift=7mm,
       inner xsep=7mm,
       text=burgundy,
       minimum width=0.9\linewidth,
@@ -133,10 +133,10 @@
       \node[
       right of=inst,
       xshift=25mm,
-      yshift=5mm,
+      yshift=3mm,
       inner sep=0pt,
       ]
-      (logo) {\includegraphics[height=15mm, width=13mm]{tulogo.png}};
+      (logo) {\includegraphics[height=14mm, width=13mm]{tulogo.png}};
 
       \node[
       below of=title,
@@ -151,7 +151,7 @@
       minimum width=0.6\linewidth,
       text width=0.6\linewidth
       ] (author) {{\color{burgundy} \underline {\small \textbf{ Presenter:}}}\\[1mm]
-         \textcolor{blue} {\insertauthor} \\ {\small \color{violet} Roll no: 43 \hspace{5mm} Batch: 2077}};
+         \textcolor{blue} {\insertauthor} \\ {\footnotesize \color{violet} Roll no: 43 \hspace{4mm} Batch: 2077(Master)}};
 
       \node[
       below of=author,
@@ -169,7 +169,7 @@
 
       \node[
       right of=author,
-      xshift=25mm,
+      xshift=27mm,
       yshift=-3mm,
       inner xsep=-1pt,
       inner ysep=-1pt,
@@ -186,10 +186,11 @@
       shade,
       left color=blue,
       right color=red,
-      yshift=-9mm,
+      yshift=-5mm,
       text=white,
       minimum width=0.7\linewidth,
-      ] (date) {\small \bfseries \insertdate};
+      minimum height=3mm
+      ] (date) {\footnotesize \insertdate};
     \end{tikzpicture}
   }}
 
